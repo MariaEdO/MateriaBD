@@ -1,0 +1,357 @@
+
+==============================================================================
+PostgreSQL VCF Performance Experiment - Comprehensive Report
+==============================================================================
+Generated: 2025-06-10 20:24:47
+VCF File: test_10k.vcf
+
+=== SYSTEM ENVIRONMENT ===
+CPU Count: 128
+Total Memory: 503.7 GB
+Python Version: 3.10.12
+Platform: linux
+
+=== FILE ANALYSIS ===
+File Size: 30.16 MB
+Total Lines: 13,417
+Header Lines: 3,417
+Variant Lines: 10,000
+
+=== DATA LOADING PERFORMANCE ===
+Schema Creation Time: 0.13 seconds
+Data Loading Time: 543.47 seconds
+Sample Insert Time: 0.04 seconds
+Genotype Insert Time: 533.00 seconds
+
+=== DATA LOADED ===
+Variants Loaded: 10,000
+Genotypes Loaded: 1,080,000
+Samples: 108
+Loading Rate: 18 variants/second
+
+Chromosome Distribution:
+  chr1: 930 variants
+  chr10: 384 variants
+  chr10_GL383546v1_alt: 1 variants
+  chr11: 567 variants
+  chr11_KI270831v1_alt: 3 variants
+  chr11_KI270832v1_alt: 2 variants
+  chr11_KI270902v1_alt: 5 variants
+  chr11_KI270903v1_alt: 1 variants
+  chr11_KI270927v1_alt: 2 variants
+  chr12: 497 variants
+  chr12_GL877875v1_alt: 1 variants
+  chr13: 173 variants
+  chr14: 326 variants
+  chr14_GL000009v2_random: 1 variants
+  chr14_GL000194v1_random: 1 variants
+  chr14_KI270847v1_alt: 1 variants
+  chr15: 350 variants
+  chr15_KI270849v1_alt: 1 variants
+  chr15_KI270905v1_alt: 1 variants
+  chr16: 503 variants
+  chr16_KI270728v1_random: 9 variants
+  chr16_KI270854v1_alt: 1 variants
+  chr16_KI270855v1_alt: 1 variants
+  chr17: 572 variants
+  chr17_GL000205v2_random: 2 variants
+  chr17_GL000258v2_alt: 2 variants
+  chr17_GL383564v2_alt: 1 variants
+  chr17_JH159147v1_alt: 1 variants
+  chr17_KI270857v1_alt: 1 variants
+  chr17_KI270861v1_alt: 1 variants
+  chr17_KI270862v1_alt: 1 variants
+  chr18: 162 variants
+  chr19: 691 variants
+  chr19_GL000209v2_alt: 5 variants
+  chr19_GL949746v1_alt: 7 variants
+  chr19_GL949747v2_alt: 2 variants
+  chr19_GL949748v2_alt: 5 variants
+  chr19_GL949749v2_alt: 2 variants
+  chr19_GL949750v2_alt: 1 variants
+  chr19_GL949751v2_alt: 2 variants
+  chr19_GL949752v1_alt: 6 variants
+  chr19_GL949753v2_alt: 2 variants
+  chr19_KI270865v1_alt: 1 variants
+  chr19_KI270867v1_alt: 1 variants
+  chr19_KI270883v1_alt: 5 variants
+  chr19_KI270885v1_alt: 1 variants
+  chr19_KI270886v1_alt: 2 variants
+  chr19_KI270887v1_alt: 1 variants
+  chr19_KI270888v1_alt: 1 variants
+  chr19_KI270889v1_alt: 1 variants
+  chr19_KI270890v1_alt: 1 variants
+  chr19_KI270891v1_alt: 1 variants
+  chr19_KI270914v1_alt: 2 variants
+  chr19_KI270915v1_alt: 1 variants
+  chr19_KI270917v1_alt: 1 variants
+  chr19_KI270920v1_alt: 1 variants
+  chr19_KI270922v1_alt: 1 variants
+  chr19_KI270923v1_alt: 1 variants
+  chr19_KI270930v1_alt: 3 variants
+  chr19_KI270931v1_alt: 1 variants
+  chr19_KI270932v1_alt: 3 variants
+  chr19_KI270933v1_alt: 2 variants
+  chr19_KI270938v1_alt: 7 variants
+  chr1_KI270706v1_random: 1 variants
+  chr1_KI270711v1_random: 1 variants
+  chr1_KI270713v1_random: 4 variants
+  chr1_KI270762v1_alt: 1 variants
+  chr2: 630 variants
+  chr20: 222 variants
+  chr20_KI270869v1_alt: 1 variants
+  chr21: 131 variants
+  chr22: 279 variants
+  chr22_GL383583v2_alt: 1 variants
+  chr22_KI270731v1_random: 1 variants
+  chr22_KI270734v1_random: 1 variants
+  chr22_KI270928v1_alt: 3 variants
+  chr2_KI270774v1_alt: 1 variants
+  chr2_KI270776v1_alt: 1 variants
+  chr3: 552 variants
+  chr3_GL000221v1_random: 1 variants
+  chr3_JH636055v2_alt: 1 variants
+  chr3_KI270779v1_alt: 2 variants
+  chr3_KI270895v1_alt: 1 variants
+  chr3_KI270924v1_alt: 2 variants
+  chr3_KI270934v1_alt: 2 variants
+  chr3_KI270935v1_alt: 1 variants
+  chr3_KI270936v1_alt: 1 variants
+  chr3_KI270937v1_alt: 4 variants
+  chr4: 357 variants
+  chr4_GL000257v2_alt: 2 variants
+  chr5: 417 variants
+  chr6: 486 variants
+  chr6_GL000250v2_alt: 12 variants
+  chr6_GL000251v2_alt: 20 variants
+  chr6_GL000252v2_alt: 29 variants
+  chr6_GL000253v2_alt: 26 variants
+  chr6_GL000254v2_alt: 14 variants
+  chr6_GL000255v2_alt: 19 variants
+  chr6_GL000256v2_alt: 24 variants
+  chr6_KI270758v1_alt: 2 variants
+  chr7: 485 variants
+  chr7_KI270803v1_alt: 3 variants
+  chr8: 317 variants
+  chr8_KI270816v1_alt: 2 variants
+  chr8_KI270819v1_alt: 1 variants
+  chr8_KI270821v1_alt: 1 variants
+  chr9: 440 variants
+  chr9_GL383541v1_alt: 1 variants
+  chr9_KI270823v1_alt: 1 variants
+  chrM: 14 variants
+  chrUn_GL000214v1: 1 variants
+  chrUn_GL000218v1: 2 variants
+  chrUn_GL000219v1: 1 variants
+  chrUn_KI270743v1: 1 variants
+  chrUn_KI270744v1: 5 variants
+  chrUn_KI270750v1: 1 variants
+  chrX: 197 variants
+  chrX_KI270880v1_alt: 2 variants
+  chrX_KI270913v1_alt: 3 variants
+  chrY: 4 variants
+
+Quality Statistics:
+  Total with Quality Scores: 10,000
+  Mean Quality: 22623.85
+  Median Quality: 1446.74
+  Min Quality: 10.04
+  Max Quality: 1885035.77
+
+Genotype Distribution:
+  0/0: 756,881
+  ./.: 169,763
+  0/1: 89,591
+  1/1: 54,980
+  0/2: 4,075
+  2/2: 1,093
+  1/2: 985
+  0/3: 869
+  2/3: 404
+  0/4: 291
+
+=== SYSTEM RESOURCES DURING LOADING ===
+Duration: 542.5 seconds
+CPU Usage:
+  Average: 33.8%
+  Peak: 89.9%
+Memory Usage:
+  Average: 36.5%
+  Peak: 37.1%
+  Process Memory Peak: 0.10 GB
+Disk I/O:
+  Data Read: 59.6 MB
+  Data Written: 1899.6 MB
+Network I/O:
+  Data Sent: 24027.2 MB
+  Data Received: 42451.7 MB
+
+=== DATABASE STATISTICS ===
+Total Database Size: 201 MB
+Database Size (MB): 201.26
+
+Table Statistics:
+  genotypes:
+    Total Size: 181 MB
+    Table Size: 134 MB
+    Index Size: 47 MB
+    Live Tuples: 1,080,470
+    Dead Tuples: 0
+    Inserts: 1,080,000
+  variants:
+    Total Size: 13 MB
+    Table Size: 6600 kB
+    Index Size: 6384 kB
+    Live Tuples: 10,000
+    Dead Tuples: 0
+    Inserts: 10,000
+  samples:
+    Total Size: 40 kB
+    Table Size: 8192 bytes
+    Index Size: 32 kB
+    Live Tuples: 108
+    Dead Tuples: 0
+    Inserts: 108
+
+Database Activity:
+  Cache Hit Ratio: 99.46%
+  Total Commits: 2,313
+  Total Rollbacks: 9
+  Blocks Read: 160,402
+  Blocks Hit: 29,767,786
+
+=== QUERY PERFORMANCE RESULTS ===
+
+Count total variants:
+  Average Time: 2.02 ms
+  Min Time: 1.77 ms
+  Max Time: 2.33 ms
+  Std Deviation: 0.20 ms
+  Results Returned: 1
+  
+  Sample Results: [(10000,)]
+
+Count total genotypes:
+  Average Time: 62.10 ms
+  Min Time: 60.25 ms
+  Max Time: 63.00 ms
+  Std Deviation: 1.11 ms
+  Results Returned: 1
+  
+  Sample Results: [(1080000,)]
+
+Count variants in range chr1:187895-287895:
+  Average Time: 0.39 ms
+  Min Time: 0.26 ms
+  Max Time: 0.83 ms
+  Std Deviation: 0.24 ms
+  Results Returned: 1
+  
+  Sample Results: [(2,)]
+
+Count high-quality variants (QUAL > 30):
+  Average Time: 5.93 ms
+  Min Time: 3.59 ms
+  Max Time: 11.90 ms
+  Std Deviation: 3.41 ms
+  Results Returned: 1
+  
+  Sample Results: [(9209,)]
+
+Quality statistics:
+  Average Time: 4.64 ms
+  Min Time: 4.04 ms
+  Max Time: 5.48 ms
+  Std Deviation: 0.56 ms
+  Results Returned: 1
+  
+  Sample Results: [(22623.8521139993, 10.04, 1885035.77, 72952.01704185609)]
+
+Variants per chromosome with average quality:
+  Average Time: 7.10 ms
+  Min Time: 6.86 ms
+  Max Time: 7.39 ms
+  Std Deviation: 0.22 ms
+  Results Returned: 120
+  
+  Sample Results: [('chr1', 930, 21730.121150537696), ('chr10', 384, 27173.28255208334), ('chr10_GL383546v1_alt', 1, 36.65)]
+
+Count variants with depth information:
+  Average Time: 7.50 ms
+  Min Time: 6.85 ms
+  Max Time: 8.35 ms
+  Std Deviation: 0.55 ms
+  Results Returned: 1
+  
+  Sample Results: [(10000,)]
+
+Genotype distribution:
+  Average Time: 154.11 ms
+  Min Time: 149.50 ms
+  Max Time: 165.73 ms
+  Std Deviation: 6.59 ms
+  Results Returned: 29
+  
+  Sample Results: [('0/0', 756881), ('./.', 169763), ('0/1', 89591)]
+
+Complex join query for chromosome chr1:
+  Average Time: 6.78 ms
+  Min Time: 6.10 ms
+  Max Time: 8.51 ms
+  Std Deviation: 0.98 ms
+  Results Returned: 100
+  
+  Sample Results: [('chr1', 187895, 108, Decimal('12.8240740740740741')), ('chr1', 188254, 108, Decimal('64.0740740740740741')), ('chr1', 779047, 108, Decimal('0.03703703703703703704'))]
+
+Depth statistics across all genotypes:
+  Average Time: 132.78 ms
+  Min Time: 106.43 ms
+  Max Time: 224.53 ms
+  Std Deviation: 51.34 ms
+  Results Returned: 1
+  
+  Sample Results: [(Decimal('43.4641442900476779'), 0, 1824, 1079326)]
+
+Genotypes for sample 18869S-ExC136-xgenV2:
+  Average Time: 2.62 ms
+  Min Time: 2.48 ms
+  Max Time: 3.07 ms
+  Std Deviation: 0.25 ms
+  Results Returned: 100
+  
+  Sample Results: [('chr1', 187895, './.', None), ('chr1', 188254, '0/1', 99), ('chr1', 779047, './.', None)]
+
+=== SYSTEM RESOURCES DURING QUERIES ===
+Duration: 2.0 seconds
+CPU Usage:
+  Average: 34.9%
+  Peak: 44.5%
+Memory Usage:
+  Average: 36.5%
+  Peak: 36.5%
+
+=== PERFORMANCE SUMMARY ===
+Total Data Points: 10,000 variants, 1,080,000 genotypes
+Loading Efficiency: 18 variants/second
+Storage Efficiency: 50 variants/MB
+Average Query Response: 35.1 ms
+
+=== RECOMMENDATIONS ===
+Based on the performance analysis:
+
+1. Loading Performance:
+   - Loading rate of 18 variants/second
+   - Consider batch size optimization for better throughput
+   - Monitor memory usage during large file processing
+
+2. Query Performance:
+   - Average query time: 35.1 ms
+   - Consider additional indexes for frequently queried columns
+   - Monitor cache hit ratio: 99.5%
+
+3. Storage Optimization:
+   - Database size: 201 MB
+   - Consider compression for large INFO fields
+   - Regular VACUUM operations recommended
+
+==============================================================================

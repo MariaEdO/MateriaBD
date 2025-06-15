@@ -1,0 +1,912 @@
+{
+  "schema_creation_time": 0.09172773361206055,
+  "file_stats": {
+    "file_size_mb": 150.53491115570068,
+    "total_lines": 53417,
+    "header_lines": 3417,
+    "variant_lines": 50000
+  },
+  "load_time": 2494.6601116657257,
+  "sample_insert_time": 0.03702139854431152,
+  "genotype_insert_time": 2445.8646969795227,
+  "variant_count": 50000,
+  "genotype_count": 5400000,
+  "sample_count": 108,
+  "chromosome_distribution": {
+    "chr1": 4703,
+    "chr10": 1921,
+    "chr10_GL383545v1_alt": 2,
+    "chr10_GL383546v1_alt": 3,
+    "chr10_KI270824v1_alt": 1,
+    "chr10_KI270825v1_alt": 2,
+    "chr11": 2788,
+    "chr11_JH159136v1_alt": 3,
+    "chr11_JH159137v1_alt": 1,
+    "chr11_KI270721v1_random": 1,
+    "chr11_KI270829v1_alt": 4,
+    "chr11_KI270830v1_alt": 2,
+    "chr11_KI270831v1_alt": 4,
+    "chr11_KI270832v1_alt": 5,
+    "chr11_KI270902v1_alt": 19,
+    "chr11_KI270903v1_alt": 7,
+    "chr11_KI270927v1_alt": 15,
+    "chr12": 2563,
+    "chr12_GL383553v2_alt": 1,
+    "chr12_GL877876v1_alt": 2,
+    "chr12_KI270834v1_alt": 1,
+    "chr12_KI270904v1_alt": 5,
+    "chr13": 824,
+    "chr14": 1563,
+    "chr14_GL000009v2_random": 1,
+    "chr14_GL000194v1_random": 11,
+    "chr14_GL000225v1_random": 17,
+    "chr14_KI270723v1_random": 1,
+    "chr14_KI270726v1_random": 1,
+    "chr14_KI270847v1_alt": 7,
+    "chr15": 1819,
+    "chr15_KI270727v1_random": 8,
+    "chr15_KI270848v1_alt": 3,
+    "chr15_KI270849v1_alt": 1,
+    "chr15_KI270850v1_alt": 1,
+    "chr15_KI270852v1_alt": 2,
+    "chr15_KI270905v1_alt": 8,
+    "chr15_KI270906v1_alt": 1,
+    "chr16": 2411,
+    "chr16_GL383556v1_alt": 1,
+    "chr16_KI270728v1_random": 15,
+    "chr16_KI270853v1_alt": 6,
+    "chr16_KI270854v1_alt": 1,
+    "chr16_KI270855v1_alt": 1,
+    "chr16_KI270856v1_alt": 1,
+    "chr17": 2970,
+    "chr17_GL000205v2_random": 12,
+    "chr17_GL000258v2_alt": 1,
+    "chr17_GL383563v3_alt": 1,
+    "chr17_GL383564v2_alt": 2,
+    "chr17_JH159146v1_alt": 6,
+    "chr17_JH159147v1_alt": 1,
+    "chr17_JH159148v1_alt": 6,
+    "chr17_KI270857v1_alt": 9,
+    "chr17_KI270860v1_alt": 2,
+    "chr17_KI270861v1_alt": 6,
+    "chr17_KI270862v1_alt": 3,
+    "chr17_KI270907v1_alt": 1,
+    "chr17_KI270908v1_alt": 2,
+    "chr17_KI270909v1_alt": 2,
+    "chr17_KI270910v1_alt": 2,
+    "chr18": 759,
+    "chr18_GL383572v1_alt": 2,
+    "chr18_KI270863v1_alt": 1,
+    "chr18_KI270911v1_alt": 1,
+    "chr19": 3509,
+    "chr19_GL000209v2_alt": 7,
+    "chr19_GL383573v1_alt": 2,
+    "chr19_GL383576v1_alt": 2,
+    "chr19_GL949746v1_alt": 35,
+    "chr19_GL949747v2_alt": 12,
+    "chr19_GL949748v2_alt": 9,
+    "chr19_GL949749v2_alt": 11,
+    "chr19_GL949750v2_alt": 8,
+    "chr19_GL949751v2_alt": 13,
+    "chr19_GL949752v1_alt": 36,
+    "chr19_GL949753v2_alt": 23,
+    "chr19_KI270865v1_alt": 1,
+    "chr19_KI270866v1_alt": 1,
+    "chr19_KI270868v1_alt": 2,
+    "chr19_KI270882v1_alt": 10,
+    "chr19_KI270883v1_alt": 5,
+    "chr19_KI270884v1_alt": 12,
+    "chr19_KI270885v1_alt": 4,
+    "chr19_KI270886v1_alt": 9,
+    "chr19_KI270887v1_alt": 11,
+    "chr19_KI270888v1_alt": 9,
+    "chr19_KI270889v1_alt": 5,
+    "chr19_KI270890v1_alt": 5,
+    "chr19_KI270891v1_alt": 3,
+    "chr19_KI270914v1_alt": 6,
+    "chr19_KI270915v1_alt": 7,
+    "chr19_KI270916v1_alt": 4,
+    "chr19_KI270917v1_alt": 6,
+    "chr19_KI270918v1_alt": 4,
+    "chr19_KI270919v1_alt": 6,
+    "chr19_KI270920v1_alt": 3,
+    "chr19_KI270921v1_alt": 7,
+    "chr19_KI270922v1_alt": 4,
+    "chr19_KI270923v1_alt": 8,
+    "chr19_KI270929v1_alt": 4,
+    "chr19_KI270930v1_alt": 11,
+    "chr19_KI270931v1_alt": 5,
+    "chr19_KI270932v1_alt": 9,
+    "chr19_KI270933v1_alt": 7,
+    "chr19_KI270938v1_alt": 35,
+    "chr1_GL383518v1_alt": 1,
+    "chr1_GL383519v1_alt": 3,
+    "chr1_KI270706v1_random": 4,
+    "chr1_KI270708v1_random": 1,
+    "chr1_KI270711v1_random": 19,
+    "chr1_KI270713v1_random": 7,
+    "chr1_KI270761v1_alt": 1,
+    "chr1_KI270762v1_alt": 2,
+    "chr1_KI270892v1_alt": 1,
+    "chr2": 3201,
+    "chr20": 1159,
+    "chr20_KI270869v1_alt": 2,
+    "chr20_KI270870v1_alt": 1,
+    "chr21": 598,
+    "chr21_GL383580v2_alt": 1,
+    "chr21_KI270872v1_alt": 2,
+    "chr22": 1431,
+    "chr22_GL383582v2_alt": 2,
+    "chr22_KB663609v1_alt": 1,
+    "chr22_KI270731v1_random": 4,
+    "chr22_KI270733v1_random": 2,
+    "chr22_KI270734v1_random": 12,
+    "chr22_KI270875v1_alt": 4,
+    "chr22_KI270879v1_alt": 4,
+    "chr22_KI270928v1_alt": 2,
+    "chr2_KI270769v1_alt": 2,
+    "chr2_KI270773v1_alt": 1,
+    "chr2_KI270776v1_alt": 3,
+    "chr3": 2606,
+    "chr3_GL000221v1_random": 9,
+    "chr3_KI270777v1_alt": 1,
+    "chr3_KI270779v1_alt": 6,
+    "chr3_KI270782v1_alt": 1,
+    "chr3_KI270895v1_alt": 5,
+    "chr3_KI270924v1_alt": 5,
+    "chr3_KI270934v1_alt": 9,
+    "chr3_KI270935v1_alt": 4,
+    "chr3_KI270936v1_alt": 12,
+    "chr3_KI270937v1_alt": 9,
+    "chr4": 1789,
+    "chr5": 2063,
+    "chr5_GL339449v2_alt": 2,
+    "chr5_KI270791v1_alt": 2,
+    "chr5_KI270792v1_alt": 5,
+    "chr5_KI270897v1_alt": 1,
+    "chr5_KI270898v1_alt": 2,
+    "chr6": 2605,
+    "chr6_GL000250v2_alt": 49,
+    "chr6_GL000251v2_alt": 101,
+    "chr6_GL000252v2_alt": 83,
+    "chr6_GL000253v2_alt": 93,
+    "chr6_GL000254v2_alt": 85,
+    "chr6_GL000255v2_alt": 97,
+    "chr6_GL000256v2_alt": 88,
+    "chr6_KI270758v1_alt": 3,
+    "chr6_KI270797v1_alt": 2,
+    "chr6_KI270801v1_alt": 1,
+    "chr7": 2424,
+    "chr7_KI270803v1_alt": 5,
+    "chr7_KI270809v1_alt": 3,
+    "chr8": 1698,
+    "chr8_KI270813v1_alt": 3,
+    "chr8_KI270816v1_alt": 7,
+    "chr8_KI270817v1_alt": 1,
+    "chr8_KI270819v1_alt": 1,
+    "chr8_KI270821v1_alt": 4,
+    "chr8_KI270926v1_alt": 1,
+    "chr9": 2075,
+    "chr9_GL383541v1_alt": 3,
+    "chr9_KI270720v1_random": 1,
+    "chrM": 73,
+    "chrUn_GL000195v1": 3,
+    "chrUn_GL000214v1": 2,
+    "chrUn_GL000216v2": 4,
+    "chrUn_GL000218v1": 8,
+    "chrUn_GL000219v1": 14,
+    "chrUn_GL000220v1": 1,
+    "chrUn_KI270442v1": 2,
+    "chrUn_KI270742v1": 1,
+    "chrUn_KI270743v1": 2,
+    "chrUn_KI270744v1": 9,
+    "chrUn_KI270746v1": 2,
+    "chrUn_KI270749v1": 1,
+    "chrX": 1009,
+    "chrX_KI270880v1_alt": 6,
+    "chrX_KI270913v1_alt": 1,
+    "chrY": 11
+  },
+  "quality_stats": {
+    "count": 50000,
+    "mean": 23427.3298332,
+    "median": 1475.285,
+    "min": 10.02,
+    "max": 2721257.44
+  },
+  "genotype_distribution": {
+    "0/0": 3827514,
+    "./.": 799676,
+    "1/1": 279434,
+    "0/1": 451390,
+    "0/2": 21652,
+    "2/2": 4287,
+    "3/3": 737,
+    "1/2": 4220,
+    "0/3": 4082,
+    "1/5": 145,
+    "1/3": 872,
+    "1/4": 285,
+    "2/4": 449,
+    "0/4": 1286,
+    "2/3": 1254,
+    "3/4": 364,
+    "4/4": 423,
+    "0/5": 524,
+    "5/5": 153,
+    "2/5": 216,
+    "4/5": 163,
+    "3/5": 176,
+    "0/6": 216,
+    "5/6": 76,
+    "3/6": 95,
+    "4/6": 61,
+    "2/6": 78,
+    "6/6": 82,
+    "1/6": 90
+  },
+  "loading_rate_variants_per_sec": 20.04281054809273,
+  "system_stats_loading": {
+    "cpu_percent": {
+      "avg": 36.13895841744045,
+      "max": 93.2,
+      "min": 0.0,
+      "final": 45.0
+    },
+    "memory_percent": {
+      "avg": 32.04856681469519,
+      "max": 36.8,
+      "min": 30.3,
+      "final": 31.5
+    },
+    "memory_used_gb": {
+      "avg": 0.09676539421466555,
+      "max": 0.09810638427734375,
+      "min": 0.09033584594726562,
+      "final": 0.09574127197265625
+    },
+    "disk_read_mb": {
+      "avg": 174.01590728451757,
+      "max": 445.2109375,
+      "min": 0.0,
+      "final": 445.2109375
+    },
+    "disk_write_mb": {
+      "avg": 4203.183809800162,
+      "max": 8583.4453125,
+      "min": 8.75,
+      "final": 8583.4453125
+    },
+    "network_sent_mb": {
+      "avg": 103566.19049828737,
+      "max": 245125.3008146286,
+      "min": 199.21595191955566,
+      "final": 245125.3008146286
+    },
+    "network_recv_mb": {
+      "avg": 101325.42621938538,
+      "max": 201571.79241466522,
+      "min": 729.6451988220215,
+      "final": 201571.79241466522
+    },
+    "duration_seconds": 2493.7067217826843
+  },
+  "queries": {
+    "total_variants": {
+      "description": "Count total variants",
+      "avg_time": 0.005431270599365235,
+      "min_time": 0.0052642822265625,
+      "max_time": 0.005621910095214844,
+      "std_time": 0.00014981194147555864,
+      "result_count": 1,
+      "sample_results": [
+        [
+          50000
+        ]
+      ],
+      "times": [
+        0.005551338195800781,
+        0.005621910095214844,
+        0.005379438400268555,
+        0.005339384078979492,
+        0.0052642822265625
+      ],
+      "query_type": "count"
+    },
+    "total_genotypes": {
+      "description": "Count total genotypes",
+      "avg_time": 0.24950923919677734,
+      "min_time": 0.24740362167358398,
+      "max_time": 0.25560998916625977,
+      "std_time": 0.003453617874706062,
+      "result_count": 1,
+      "sample_results": [
+        [
+          5400000
+        ]
+      ],
+      "times": [
+        0.25560998916625977,
+        0.24776124954223633,
+        0.24789738655090332,
+        0.24887394905090332,
+        0.24740362167358398
+      ],
+      "query_type": "count"
+    },
+    "range_query": {
+      "description": "Count variants in range chr1:12755-112755",
+      "avg_time": 0.0004459381103515625,
+      "min_time": 0.0003228187561035156,
+      "max_time": 0.0008680820465087891,
+      "std_time": 0.00023640266741711504,
+      "result_count": 1,
+      "sample_results": [
+        [
+          7
+        ]
+      ],
+      "times": [
+        0.0008680820465087891,
+        0.0003616809844970703,
+        0.00033545494079589844,
+        0.00034165382385253906,
+        0.0003228187561035156
+      ],
+      "query_type": "count"
+    },
+    "quality_filter": {
+      "description": "Count high-quality variants (QUAL > 30)",
+      "avg_time": 0.010033321380615235,
+      "min_time": 0.00670933723449707,
+      "max_time": 0.01766228675842285,
+      "std_time": 0.004845798564799723,
+      "result_count": 1,
+      "sample_results": [
+        [
+          46523
+        ]
+      ],
+      "times": [
+        0.01766228675842285,
+        0.0069348812103271484,
+        0.006751537322998047,
+        0.00670933723449707,
+        0.012108564376831055
+      ],
+      "query_type": "count"
+    },
+    "quality_stats": {
+      "description": "Quality statistics",
+      "avg_time": 0.009702348709106445,
+      "min_time": 0.009369134902954102,
+      "max_time": 0.010621070861816406,
+      "std_time": 0.0005178081767525109,
+      "result_count": 1,
+      "sample_results": [
+        [
+          23427.32983320005,
+          10.02,
+          2721257.44,
+          78652.77523846285
+        ]
+      ],
+      "times": [
+        0.010621070861816406,
+        0.009369134902954102,
+        0.009461402893066406,
+        0.009531259536743164,
+        0.009528875350952148
+      ],
+      "query_type": "stats"
+    },
+    "chromosome_summary": {
+      "description": "Variants per chromosome with average quality",
+      "avg_time": 0.03568902015686035,
+      "min_time": 0.030016422271728516,
+      "max_time": 0.040946006774902344,
+      "std_time": 0.004381937768735237,
+      "result_count": 193,
+      "sample_results": [
+        [
+          "chr1",
+          4703,
+          27234.245879225662
+        ],
+        [
+          "chr10",
+          1921,
+          22625.238308172815
+        ],
+        [
+          "chr10_GL383545v1_alt",
+          2,
+          115.255
+        ],
+        [
+          "chr10_GL383546v1_alt",
+          3,
+          79.37666666666667
+        ],
+        [
+          "chr10_KI270824v1_alt",
+          1,
+          19.49
+        ],
+        [
+          "chr10_KI270825v1_alt",
+          2,
+          186.49
+        ],
+        [
+          "chr11",
+          2788,
+          27888.7808787659
+        ],
+        [
+          "chr11_JH159136v1_alt",
+          3,
+          239.88
+        ],
+        [
+          "chr11_JH159137v1_alt",
+          1,
+          708.81
+        ],
+        [
+          "chr11_KI270721v1_random",
+          1,
+          20.6
+        ]
+      ],
+      "times": [
+        0.038829803466796875,
+        0.030016422271728516,
+        0.03302001953125,
+        0.040946006774902344,
+        0.03563284873962402
+      ],
+      "query_type": "summary"
+    },
+    "info_field_query": {
+      "description": "Count variants with depth information",
+      "avg_time": 0.028230810165405275,
+      "min_time": 0.02763652801513672,
+      "max_time": 0.029033660888671875,
+      "std_time": 0.0005717979317290449,
+      "result_count": 1,
+      "sample_results": [
+        [
+          50000
+        ]
+      ],
+      "times": [
+        0.029033660888671875,
+        0.028171300888061523,
+        0.02763652801513672,
+        0.027771949768066406,
+        0.028540611267089844
+      ],
+      "query_type": "count"
+    },
+    "genotype_distribution": {
+      "description": "Genotype distribution",
+      "avg_time": 0.6470181941986084,
+      "min_time": 0.6200447082519531,
+      "max_time": 0.7131738662719727,
+      "std_time": 0.0378081477961161,
+      "result_count": 29,
+      "sample_results": [
+        [
+          "0/0",
+          3827514
+        ],
+        [
+          "./.",
+          799676
+        ],
+        [
+          "0/1",
+          451390
+        ],
+        [
+          "1/1",
+          279434
+        ],
+        [
+          "0/2",
+          21652
+        ],
+        [
+          "2/2",
+          4287
+        ],
+        [
+          "1/2",
+          4220
+        ],
+        [
+          "0/3",
+          4082
+        ],
+        [
+          "0/4",
+          1286
+        ],
+        [
+          "2/3",
+          1254
+        ]
+      ],
+      "times": [
+        0.6374561786651611,
+        0.6200447082519531,
+        0.6386723518371582,
+        0.6257438659667969,
+        0.7131738662719727
+      ],
+      "query_type": "distribution"
+    },
+    "complex_join": {
+      "description": "Complex join query for chromosome chr1",
+      "avg_time": 0.006778621673583984,
+      "min_time": 0.0059642791748046875,
+      "max_time": 0.009245157241821289,
+      "std_time": 0.0013977135889233325,
+      "result_count": 100,
+      "sample_results": [
+        [
+          "chr1",
+          12755,
+          108,
+          "0.84259259259259259259"
+        ],
+        [
+          "chr1",
+          15903,
+          108,
+          "44.2129629629629630"
+        ],
+        [
+          "chr1",
+          16616,
+          108,
+          "83.2870370370370370"
+        ],
+        [
+          "chr1",
+          16737,
+          108,
+          "85.6759259259259259"
+        ],
+        [
+          "chr1",
+          16775,
+          108,
+          "87.8796296296296296"
+        ],
+        [
+          "chr1",
+          17484,
+          108,
+          "99.1759259259259259"
+        ],
+        [
+          "chr1",
+          17694,
+          108,
+          "35.8148148148148148"
+        ],
+        [
+          "chr1",
+          183189,
+          108,
+          "1.3148148148148148"
+        ],
+        [
+          "chr1",
+          183238,
+          108,
+          "2.7777777777777778"
+        ],
+        [
+          "chr1",
+          185275,
+          108,
+          "79.5740740740740741"
+        ]
+      ],
+      "times": [
+        0.009245157241821289,
+        0.0065348148345947266,
+        0.00616455078125,
+        0.0059642791748046875,
+        0.005984306335449219
+      ],
+      "query_type": "complex"
+    },
+    "depth_statistics": {
+      "description": "Depth statistics across all genotypes",
+      "avg_time": 0.6006215572357178,
+      "min_time": 0.50309157371521,
+      "max_time": 0.6817009449005127,
+      "std_time": 0.07075580341071115,
+      "result_count": 1,
+      "sample_results": [
+        [
+          "44.1426890085222562",
+          0,
+          4160,
+          5397045
+        ]
+      ],
+      "times": [
+        0.5841519832611084,
+        0.50309157371521,
+        0.5775439739227295,
+        0.6566193103790283,
+        0.6817009449005127
+      ],
+      "query_type": "stats"
+    },
+    "sample_genotypes": {
+      "description": "Genotypes for sample 18869S-ExC136-xgenV2",
+      "avg_time": 0.004159879684448242,
+      "min_time": 0.003952741622924805,
+      "max_time": 0.004608631134033203,
+      "std_time": 0.0002688015586609476,
+      "result_count": 100,
+      "sample_results": [
+        [
+          "chr1",
+          12755,
+          "0/0",
+          3
+        ],
+        [
+          "chr1",
+          15903,
+          "1/1",
+          78
+        ],
+        [
+          "chr1",
+          16616,
+          "0/0",
+          99
+        ],
+        [
+          "chr1",
+          16737,
+          "0/0",
+          99
+        ],
+        [
+          "chr1",
+          16775,
+          "0/0",
+          99
+        ],
+        [
+          "chr1",
+          17484,
+          "0/0",
+          99
+        ],
+        [
+          "chr1",
+          17694,
+          "0/0",
+          48
+        ],
+        [
+          "chr1",
+          183189,
+          "./.",
+          null
+        ],
+        [
+          "chr1",
+          183238,
+          "./.",
+          null
+        ],
+        [
+          "chr1",
+          185275,
+          "0/1",
+          99
+        ]
+      ],
+      "times": [
+        0.004608631134033203,
+        0.004197835922241211,
+        0.003974199295043945,
+        0.004065990447998047,
+        0.003952741622924805
+      ],
+      "query_type": "sample_data"
+    }
+  },
+  "system_stats_queries": {
+    "cpu_percent": {
+      "avg": 48.95,
+      "max": 63.4,
+      "min": 42.1,
+      "final": 48.8
+    },
+    "memory_percent": {
+      "avg": 31.566666666666666,
+      "max": 31.6,
+      "min": 31.5,
+      "final": 31.6
+    },
+    "memory_used_gb": {
+      "avg": 0.09628041585286458,
+      "max": 0.096282958984375,
+      "min": 0.09627914428710938,
+      "final": 0.096282958984375
+    },
+    "disk_read_mb": {
+      "avg": 260.39344618055554,
+      "max": 288.3828125,
+      "min": 0.0,
+      "final": 288.3828125
+    },
+    "disk_write_mb": {
+      "avg": 22.16189236111111,
+      "max": 42.3671875,
+      "min": 0.0,
+      "final": 42.3671875
+    },
+    "network_sent_mb": {
+      "avg": 1694.8028819296096,
+      "max": 4801.040427207947,
+      "min": 0.00244903564453125,
+      "final": 4801.040427207947
+    },
+    "network_recv_mb": {
+      "avg": 380.15599807103473,
+      "max": 933.1329355239868,
+      "min": 0.523834228515625,
+      "final": 933.1329355239868
+    },
+    "duration_seconds": 8.579440593719482
+  },
+  "database_totals": {
+    "total_variants": 50000,
+    "total_genotypes": 5400000,
+    "total_samples": 108
+  },
+  "database_stats": {
+    "database_size": "960 MB",
+    "database_size_bytes": 1007137583,
+    "database_size_mb": 960.4812459945679,
+    "table_stats": [
+      [
+        "genotypes",
+        "906 MB",
+        "672 MB",
+        "234 MB",
+        949772288,
+        5400000,
+        0,
+        0,
+        5397441,
+        0
+      ],
+      [
+        "variants",
+        "47 MB",
+        "32 MB",
+        "15 MB",
+        49324032,
+        50000,
+        0,
+        0,
+        50000,
+        0
+      ],
+      [
+        "samples",
+        "40 kB",
+        "8192 bytes",
+        "32 kB",
+        40960,
+        108,
+        0,
+        0,
+        108,
+        0
+      ]
+    ],
+    "index_stats": [
+      [
+        "variants_pkey",
+        "variants",
+        5400530,
+        5400500,
+        "1112 kB",
+        1138688
+      ],
+      [
+        "idx_variants_qual",
+        "variants",
+        482615,
+        0,
+        "1312 kB",
+        1343488
+      ],
+      [
+        "idx_variants_chrom",
+        "variants",
+        300001,
+        0,
+        "424 kB",
+        434176
+      ],
+      [
+        "idx_genotypes_variant_sample",
+        "genotypes",
+        54035,
+        54020,
+        "118 MB",
+        123330560
+      ],
+      [
+        "idx_variants_chrom_pos",
+        "variants",
+        50542,
+        50505,
+        "1576 kB",
+        1613824
+      ],
+      [
+        "samples_pkey",
+        "samples",
+        10,
+        10,
+        "16 kB",
+        16384
+      ],
+      [
+        "genotypes_pkey",
+        "genotypes",
+        0,
+        0,
+        "116 MB",
+        121307136
+      ],
+      [
+        "samples_sample_name_key",
+        "samples",
+        0,
+        0,
+        "16 kB",
+        16384
+      ],
+      [
+        "idx_info_gin",
+        "variants",
+        0,
+        0,
+        "10 MB",
+        10936320
+      ]
+    ],
+    "query_performance": [],
+    "database_activity": {
+      "connections": 1,
+      "commits": 7610,
+      "rollbacks": 13,
+      "blocks_read": 1779816,
+      "blocks_hit": 102371262,
+      "cache_hit_ratio": 98.29112090419265,
+      "tuples_returned": 538667332,
+      "tuples_fetched": 7939063,
+      "tuples_inserted": 7631286,
+      "tuples_updated": 426,
+      "tuples_deleted": 729
+    }
+  }
+}

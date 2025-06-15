@@ -1,0 +1,446 @@
+
+==============================================================================
+MongoDB VCF Performance Experiment - Comprehensive Report
+==============================================================================
+Generated: 2025-06-10 23:48:05
+VCF File: 100k_test.vcf
+
+=== SYSTEM ENVIRONMENT ===
+CPU Count: 128
+Total Memory: 503.7 GB
+Python Version: 3.10.12
+Platform: linux
+
+=== FILE ANALYSIS ===
+File Size: 299.96 MB
+Total Lines: 103,417
+Header Lines: 3,417
+Variant Lines: 100,000
+
+=== DATA LOADING PERFORMANCE ===
+Schema Creation Time: 0.07 seconds
+Data Loading Time: 244.35 seconds
+Sample Insert Time: 0.01 seconds
+
+=== DATA LOADED ===
+Variants Loaded: 100,000
+Genotypes Loaded: 10,800,000
+Samples: 108
+Loading Rate: 409 variants/second
+
+Chromosome Distribution:
+  chr1: 9,188 variants
+  chr10: 4,070 variants
+  chr10_GL383545v1_alt: 2 variants
+  chr10_KI270824v1_alt: 1 variants
+  chr10_KI270825v1_alt: 1 variants
+  chr11: 5,681 variants
+  chr11_JH159136v1_alt: 2 variants
+  chr11_JH159137v1_alt: 1 variants
+  chr11_KI270721v1_random: 2 variants
+  chr11_KI270829v1_alt: 4 variants
+  chr11_KI270830v1_alt: 9 variants
+  chr11_KI270831v1_alt: 8 variants
+  chr11_KI270832v1_alt: 20 variants
+  chr11_KI270902v1_alt: 16 variants
+  chr11_KI270903v1_alt: 4 variants
+  chr11_KI270927v1_alt: 21 variants
+  chr12: 4,945 variants
+  chr12_GL383553v2_alt: 2 variants
+  chr12_GL877875v1_alt: 4 variants
+  chr12_GL877876v1_alt: 9 variants
+  chr12_KI270837v1_alt: 2 variants
+  chr12_KI270904v1_alt: 9 variants
+  chr13: 1,740 variants
+  chr13_KI270839v1_alt: 1 variants
+  chr13_KI270840v1_alt: 1 variants
+  chr14: 3,030 variants
+  chr14_GL000009v2_random: 3 variants
+  chr14_GL000194v1_random: 17 variants
+  chr14_GL000225v1_random: 23 variants
+  chr14_KI270723v1_random: 4 variants
+  chr14_KI270724v1_random: 1 variants
+  chr14_KI270845v1_alt: 3 variants
+  chr14_KI270847v1_alt: 12 variants
+  chr15: 3,624 variants
+  chr15_GL383555v2_alt: 3 variants
+  chr15_KI270727v1_random: 6 variants
+  chr15_KI270848v1_alt: 4 variants
+  chr15_KI270849v1_alt: 1 variants
+  chr15_KI270850v1_alt: 5 variants
+  chr15_KI270851v1_alt: 2 variants
+  chr15_KI270852v1_alt: 1 variants
+  chr15_KI270905v1_alt: 26 variants
+  chr16: 4,797 variants
+  chr16_GL383556v1_alt: 4 variants
+  chr16_KI270728v1_random: 26 variants
+  chr16_KI270853v1_alt: 13 variants
+  chr16_KI270854v1_alt: 4 variants
+  chr16_KI270855v1_alt: 3 variants
+  chr17: 5,805 variants
+  chr17_GL000205v2_random: 16 variants
+  chr17_GL000258v2_alt: 6 variants
+  chr17_GL383563v3_alt: 5 variants
+  chr17_GL383564v2_alt: 6 variants
+  chr17_JH159146v1_alt: 13 variants
+  chr17_JH159147v1_alt: 4 variants
+  chr17_JH159148v1_alt: 6 variants
+  chr17_KI270857v1_alt: 20 variants
+  chr17_KI270860v1_alt: 4 variants
+  chr17_KI270861v1_alt: 8 variants
+  chr17_KI270862v1_alt: 5 variants
+  chr17_KI270907v1_alt: 1 variants
+  chr17_KI270908v1_alt: 4 variants
+  chr17_KI270910v1_alt: 3 variants
+  chr18: 1,562 variants
+  chr18_GL383571v1_alt: 1 variants
+  chr18_GL383572v1_alt: 2 variants
+  chr18_KI270863v1_alt: 2 variants
+  chr18_KI270911v1_alt: 4 variants
+  chr19: 7,149 variants
+  chr19_GL000209v2_alt: 9 variants
+  chr19_GL383573v1_alt: 2 variants
+  chr19_GL383576v1_alt: 1 variants
+  chr19_GL949746v1_alt: 71 variants
+  chr19_GL949747v2_alt: 22 variants
+  chr19_GL949748v2_alt: 20 variants
+  chr19_GL949749v2_alt: 12 variants
+  chr19_GL949750v2_alt: 14 variants
+  chr19_GL949751v2_alt: 17 variants
+  chr19_GL949752v1_alt: 57 variants
+  chr19_GL949753v2_alt: 47 variants
+  chr19_KI270865v1_alt: 3 variants
+  chr19_KI270867v1_alt: 1 variants
+  chr19_KI270868v1_alt: 3 variants
+  chr19_KI270882v1_alt: 13 variants
+  chr19_KI270883v1_alt: 10 variants
+  chr19_KI270884v1_alt: 15 variants
+  chr19_KI270885v1_alt: 18 variants
+  chr19_KI270886v1_alt: 18 variants
+  chr19_KI270887v1_alt: 14 variants
+  chr19_KI270888v1_alt: 13 variants
+  chr19_KI270889v1_alt: 14 variants
+  chr19_KI270890v1_alt: 14 variants
+  chr19_KI270891v1_alt: 14 variants
+  chr19_KI270914v1_alt: 16 variants
+  chr19_KI270915v1_alt: 14 variants
+  chr19_KI270916v1_alt: 9 variants
+  chr19_KI270917v1_alt: 11 variants
+  chr19_KI270918v1_alt: 11 variants
+  chr19_KI270919v1_alt: 10 variants
+  chr19_KI270920v1_alt: 12 variants
+  chr19_KI270921v1_alt: 15 variants
+  chr19_KI270922v1_alt: 14 variants
+  chr19_KI270923v1_alt: 22 variants
+  chr19_KI270929v1_alt: 14 variants
+  chr19_KI270930v1_alt: 19 variants
+  chr19_KI270931v1_alt: 10 variants
+  chr19_KI270932v1_alt: 16 variants
+  chr19_KI270933v1_alt: 12 variants
+  chr19_KI270938v1_alt: 87 variants
+  chr1_GL383519v1_alt: 2 variants
+  chr1_KI270706v1_random: 5 variants
+  chr1_KI270708v1_random: 3 variants
+  chr1_KI270711v1_random: 30 variants
+  chr1_KI270712v1_random: 1 variants
+  chr1_KI270713v1_random: 22 variants
+  chr1_KI270714v1_random: 4 variants
+  chr1_KI270759v1_alt: 2 variants
+  chr1_KI270761v1_alt: 4 variants
+  chr1_KI270762v1_alt: 5 variants
+  chr1_KI270766v1_alt: 3 variants
+  chr1_KI270892v1_alt: 2 variants
+  chr2: 6,520 variants
+  chr20: 2,363 variants
+  chr20_KI270869v1_alt: 1 variants
+  chr20_KI270870v1_alt: 2 variants
+  chr21: 1,326 variants
+  chr22: 2,769 variants
+  chr22_GL383582v2_alt: 7 variants
+  chr22_GL383583v2_alt: 1 variants
+  chr22_KB663609v1_alt: 1 variants
+  chr22_KI270731v1_random: 17 variants
+  chr22_KI270733v1_random: 5 variants
+  chr22_KI270734v1_random: 14 variants
+  chr22_KI270875v1_alt: 5 variants
+  chr22_KI270876v1_alt: 1 variants
+  chr22_KI270877v1_alt: 4 variants
+  chr22_KI270878v1_alt: 2 variants
+  chr22_KI270879v1_alt: 9 variants
+  chr22_KI270928v1_alt: 6 variants
+  chr2_GL383522v1_alt: 3 variants
+  chr2_KI270773v1_alt: 1 variants
+  chr2_KI270774v1_alt: 5 variants
+  chr2_KI270776v1_alt: 3 variants
+  chr3: 5,023 variants
+  chr3_GL000221v1_random: 19 variants
+  chr3_KI270777v1_alt: 4 variants
+  chr3_KI270779v1_alt: 12 variants
+  chr3_KI270784v1_alt: 1 variants
+  chr3_KI270895v1_alt: 9 variants
+  chr3_KI270924v1_alt: 14 variants
+  chr3_KI270934v1_alt: 8 variants
+  chr3_KI270935v1_alt: 8 variants
+  chr3_KI270936v1_alt: 9 variants
+  chr3_KI270937v1_alt: 12 variants
+  chr4: 3,663 variants
+  chr4_GL000257v2_alt: 4 variants
+  chr4_KI270896v1_alt: 1 variants
+  chr5: 4,057 variants
+  chr5_GL339449v2_alt: 2 variants
+  chr5_KI270791v1_alt: 5 variants
+  chr5_KI270792v1_alt: 5 variants
+  chr5_KI270794v1_alt: 1 variants
+  chr5_KI270897v1_alt: 4 variants
+  chr5_KI270898v1_alt: 1 variants
+  chr6: 5,050 variants
+  chr6_GL000250v2_alt: 91 variants
+  chr6_GL000251v2_alt: 188 variants
+  chr6_GL000252v2_alt: 184 variants
+  chr6_GL000253v2_alt: 168 variants
+  chr6_GL000254v2_alt: 186 variants
+  chr6_GL000255v2_alt: 198 variants
+  chr6_GL000256v2_alt: 178 variants
+  chr6_KI270758v1_alt: 4 variants
+  chr6_KI270797v1_alt: 2 variants
+  chr6_KI270798v1_alt: 2 variants
+  chr6_KI270801v1_alt: 2 variants
+  chr7: 4,912 variants
+  chr7_GL383534v2_alt: 1 variants
+  chr7_KI270803v1_alt: 9 variants
+  chr7_KI270806v1_alt: 2 variants
+  chr7_KI270808v1_alt: 1 variants
+  chr7_KI270809v1_alt: 3 variants
+  chr7_KI270899v1_alt: 2 variants
+  chr8: 3,498 variants
+  chr8_KI270812v1_alt: 1 variants
+  chr8_KI270813v1_alt: 8 variants
+  chr8_KI270816v1_alt: 21 variants
+  chr8_KI270819v1_alt: 3 variants
+  chr8_KI270821v1_alt: 4 variants
+  chr8_KI270822v1_alt: 1 variants
+  chr8_KI270900v1_alt: 2 variants
+  chr9: 4,153 variants
+  chr9_GL383540v1_alt: 1 variants
+  chr9_GL383541v1_alt: 1 variants
+  chr9_KI270719v1_random: 1 variants
+  chr9_KI270720v1_random: 6 variants
+  chrM: 127 variants
+  chrUn_GL000195v1: 14 variants
+  chrUn_GL000213v1: 3 variants
+  chrUn_GL000214v1: 7 variants
+  chrUn_GL000216v2: 10 variants
+  chrUn_GL000218v1: 21 variants
+  chrUn_GL000219v1: 21 variants
+  chrUn_GL000220v1: 1 variants
+  chrUn_KI270442v1: 4 variants
+  chrUn_KI270742v1: 2 variants
+  chrUn_KI270743v1: 8 variants
+  chrUn_KI270744v1: 21 variants
+  chrUn_KI270746v1: 7 variants
+  chrUn_KI270749v1: 1 variants
+  chrUn_KI270750v1: 1 variants
+  chrUn_KI270753v1: 2 variants
+  chrX: 2,105 variants
+  chrX_KI270880v1_alt: 8 variants
+  chrX_KI270913v1_alt: 10 variants
+  chrY: 39 variants
+
+Quality Statistics:
+  Total with Quality Scores: 100,000
+  Mean Quality: 22886.82
+  Median Quality: 1424.47
+  Min Quality: 10.04
+  Max Quality: 2761313.37
+
+Genotype Distribution:
+  0/0: 7,647,762
+  ./.: 1,633,609
+  0/1: 887,658
+  1/1: 550,031
+  0/2: 41,267
+  2/2: 8,973
+  1/2: 8,958
+  0/3: 7,165
+  2/3: 2,633
+  0/4: 1,986
+
+=== SYSTEM RESOURCES DURING LOADING ===
+Duration: 243.4 seconds
+CPU Usage:
+  Average: 18.6%
+  Peak: 30.2%
+Memory Usage:
+  Average: 26.6%
+  Peak: 26.7%
+  Process Memory Peak: 0.26 GB
+Disk I/O:
+  Data Read: 41.1 MB
+  Data Written: 1341.2 MB
+Network I/O:
+  Data Sent: 8506.1 MB
+  Data Received: 8467.9 MB
+
+=== DATABASE STATISTICS ===
+Total Database Size: 756.84 MB
+Storage Size: 182.18 MB
+Index Size: 193.43 MB
+Total Objects: 100,108
+
+Collection Statistics:
+  variants:
+    Document Count: 100,000
+    Data Size: 756.83 MB
+    Storage Size: 182.16 MB
+    Average Object Size: 7935 bytes
+    Index Count: 9
+    Index Size: 193.39 MB
+  samples:
+    Document Count: 108
+    Data Size: 0.01 MB
+    Storage Size: 0.02 MB
+    Average Object Size: 75 bytes
+    Index Count: 2
+    Index Size: 0.04 MB
+
+=== QUERY PERFORMANCE RESULTS ===
+
+Count total variants:
+  Average Time: 60.87 ms
+  Min Time: 59.65 ms
+  Max Time: 62.37 ms
+  Std Deviation: 1.02 ms
+  Results Returned: 1
+  
+  Sample Results: [100000]
+
+Count total genotypes:
+  Average Time: 121.52 ms
+  Min Time: 114.72 ms
+  Max Time: 137.13 ms
+  Std Deviation: 8.89 ms
+  Results Returned: 1
+  
+  Sample Results: [10800000]
+
+Count variants in range chr1:13868-113868:
+  Average Time: 2.18 ms
+  Min Time: 1.37 ms
+  Max Time: 3.61 ms
+  Std Deviation: 0.92 ms
+  Results Returned: 1
+  
+  Sample Results: [25]
+
+Count high-quality variants (QUAL > 30):
+  Average Time: 43.44 ms
+  Min Time: 41.66 ms
+  Max Time: 47.75 ms
+  Std Deviation: 2.49 ms
+  Results Returned: 1
+  
+  Sample Results: [92653]
+
+Quality statistics:
+  Average Time: 115.65 ms
+  Min Time: 111.24 ms
+  Max Time: 122.24 ms
+  Std Deviation: 4.77 ms
+  Results Returned: 1
+  
+  Sample Results: [{'_id': None, 'avg_qual': 22886.817895, 'min_qual': 10.04, 'max_qual': 2761313.37, 'count': 100000}]
+
+Variants per chromosome with average quality:
+  Average Time: 125.42 ms
+  Min Time: 121.14 ms
+  Max Time: 131.22 ms
+  Std Deviation: 3.92 ms
+  Results Returned: 216
+  
+  Sample Results: [{'_id': 'chr1', 'variant_count': 9188, 'avg_qual': 24301.14786787114}, {'_id': 'chr10', 'variant_count': 4070, 'avg_qual': 21441.27788206388}, {'_id': 'chr10_GL383545v1_alt', 'variant_count': 2, 'avg_qual': 207.3}]
+
+Count variants with depth information:
+  Average Time: 427.14 ms
+  Min Time: 383.47 ms
+  Max Time: 454.61 ms
+  Std Deviation: 26.78 ms
+  Results Returned: 1
+  
+  Sample Results: [100000]
+
+Top genotype distribution:
+  Average Time: 30766.18 ms
+  Min Time: 29146.26 ms
+  Max Time: 31953.18 ms
+  Std Deviation: 1162.33 ms
+  Results Returned: 10
+  
+  Sample Results: [{'_id': '0/0', 'count': 7647762}, {'_id': './.', 'count': 1633609}, {'_id': '0/1', 'count': 887658}]
+
+Complex aggregation for chromosome chr1:
+  Average Time: 1432.62 ms
+  Min Time: 1379.70 ms
+  Max Time: 1523.22 ms
+  Std Deviation: 55.96 ms
+  Results Returned: 100
+  
+  Sample Results: [{'_id': '6848ec5555d72e1d7352b93d', 'chrom': 'chr1', 'pos': 13868, 'sample_count': 108, 'avg_depth': 0.3611111111111111}, {'_id': '6848ec5555d72e1d7352b93e', 'chrom': 'chr1', 'pos': 14248, 'sample_count': 108, 'avg_depth': 1.3888888888888888}, {'_id': '6848ec5555d72e1d7352b93f', 'chrom': 'chr1', 'pos': 14378, 'sample_count': 108, 'avg_depth': 6.685185185185185}]
+
+Depth statistics across all genotypes:
+  Average Time: 23676.95 ms
+  Min Time: 22934.21 ms
+  Max Time: 24940.71 ms
+  Std Deviation: 822.69 ms
+  Results Returned: 1
+  
+  Sample Results: [{'_id': None, 'avg_depth': 43.5620638958575, 'min_depth': 0.0, 'max_depth': 2475.0, 'count': 10794440}]
+
+Genotypes for sample 18869S-ExC136-xgenV2:
+  Average Time: 2.37 ms
+  Min Time: 1.33 ms
+  Max Time: 4.34 ms
+  Std Deviation: 1.41 ms
+  Results Returned: 100
+  
+  Sample Results: [{'_id': '6848ec5555d72e1d7352b93d', 'chrom': 'chr1', 'pos': 13868, 'samples': {'1': {'GT': '0/0', 'AD': '1,0', 'DP': 1, 'GQ': 3, 'PL': '0,3,25'}}}, {'_id': '6848ec5555d72e1d7352b93e', 'chrom': 'chr1', 'pos': 14248, 'samples': {'1': {'GT': '0/0', 'AD': '2,0', 'DP': 2, 'GQ': 6, 'PL': '0,6,57'}}}, {'_id': '6848ec5555d72e1d7352b93f', 'chrom': 'chr1', 'pos': 14378, 'samples': {'1': {'GT': '0/0', 'AD': '5,0', 'DP': 5, 'GQ': 15, 'PL': '0,15,130'}}}]
+
+=== SYSTEM RESOURCES DURING QUERIES ===
+Duration: 283.8 seconds
+CPU Usage:
+  Average: 18.4%
+  Peak: 40.2%
+Memory Usage:
+  Average: 26.5%
+  Peak: 26.7%
+
+=== PERFORMANCE SUMMARY ===
+Total Data Points: 100,000 variants, 10,800,000 genotypes
+Loading Efficiency: 409 variants/second
+Storage Efficiency: 132 variants/MB
+Average Query Response: 5161.3 ms
+
+=== MONGODB-SPECIFIC RECOMMENDATIONS ===
+Based on the performance analysis:
+
+1. Loading Performance:
+   - Loading rate of 409 variants/second
+   - Consider using bulk operations for better throughput
+   - MongoDB's document model handles VCF data naturally
+
+2. Query Performance:
+   - Average query time: 5161.3 ms
+   - Consider compound indexes for range queries
+   - Aggregation pipeline performs well for complex analyses
+
+3. Storage Optimization:
+   - Database size: 756.84 MB
+   - MongoDB's BSON format is efficient for nested VCF data
+   - Consider sharding for very large datasets
+   - Regular compaction recommended for write-heavy workloads
+
+4. Schema Design:
+   - Document model naturally fits VCF structure
+   - Embedded sample data reduces joins
+   - Consider separating large INFO fields if needed
+
+==============================================================================

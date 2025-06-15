@@ -1,0 +1,3020 @@
+{
+  "10k": {
+    "schema_creation_time": 0.0549318790435791,
+    "file_stats": {
+      "file_size_mb": 30.157963752746582,
+      "total_lines": 13417,
+      "header_lines": 3417,
+      "variant_lines": 10000
+    },
+    "load_time": 21.18188190460205,
+    "sample_insert_time": 0.007077217102050781,
+    "variant_count": 10000,
+    "genotype_count": 1080000,
+    "sample_count": 108,
+    "chromosome_distribution": {
+      "chr1": 930,
+      "chr10": 384,
+      "chr10_GL383546v1_alt": 1,
+      "chr11": 567,
+      "chr11_KI270831v1_alt": 3,
+      "chr11_KI270832v1_alt": 2,
+      "chr11_KI270902v1_alt": 5,
+      "chr11_KI270903v1_alt": 1,
+      "chr11_KI270927v1_alt": 2,
+      "chr12": 497,
+      "chr12_GL877875v1_alt": 1,
+      "chr13": 173,
+      "chr14": 326,
+      "chr14_GL000009v2_random": 1,
+      "chr14_GL000194v1_random": 1,
+      "chr14_KI270847v1_alt": 1,
+      "chr15": 350,
+      "chr15_KI270849v1_alt": 1,
+      "chr15_KI270905v1_alt": 1,
+      "chr16": 503,
+      "chr16_KI270728v1_random": 9,
+      "chr16_KI270854v1_alt": 1,
+      "chr16_KI270855v1_alt": 1,
+      "chr17": 572,
+      "chr17_GL000205v2_random": 2,
+      "chr17_GL000258v2_alt": 2,
+      "chr17_GL383564v2_alt": 1,
+      "chr17_JH159147v1_alt": 1,
+      "chr17_KI270857v1_alt": 1,
+      "chr17_KI270861v1_alt": 1,
+      "chr17_KI270862v1_alt": 1,
+      "chr18": 162,
+      "chr19": 691,
+      "chr19_GL000209v2_alt": 5,
+      "chr19_GL949746v1_alt": 7,
+      "chr19_GL949747v2_alt": 2,
+      "chr19_GL949748v2_alt": 5,
+      "chr19_GL949749v2_alt": 2,
+      "chr19_GL949750v2_alt": 1,
+      "chr19_GL949751v2_alt": 2,
+      "chr19_GL949752v1_alt": 6,
+      "chr19_GL949753v2_alt": 2,
+      "chr19_KI270865v1_alt": 1,
+      "chr19_KI270867v1_alt": 1,
+      "chr19_KI270883v1_alt": 5,
+      "chr19_KI270885v1_alt": 1,
+      "chr19_KI270886v1_alt": 2,
+      "chr19_KI270887v1_alt": 1,
+      "chr19_KI270888v1_alt": 1,
+      "chr19_KI270889v1_alt": 1,
+      "chr19_KI270890v1_alt": 1,
+      "chr19_KI270891v1_alt": 1,
+      "chr19_KI270914v1_alt": 2,
+      "chr19_KI270915v1_alt": 1,
+      "chr19_KI270917v1_alt": 1,
+      "chr19_KI270920v1_alt": 1,
+      "chr19_KI270922v1_alt": 1,
+      "chr19_KI270923v1_alt": 1,
+      "chr19_KI270930v1_alt": 3,
+      "chr19_KI270931v1_alt": 1,
+      "chr19_KI270932v1_alt": 3,
+      "chr19_KI270933v1_alt": 2,
+      "chr19_KI270938v1_alt": 7,
+      "chr1_KI270706v1_random": 1,
+      "chr1_KI270711v1_random": 1,
+      "chr1_KI270713v1_random": 4,
+      "chr1_KI270762v1_alt": 1,
+      "chr2": 630,
+      "chr20": 222,
+      "chr20_KI270869v1_alt": 1,
+      "chr21": 131,
+      "chr22": 279,
+      "chr22_GL383583v2_alt": 1,
+      "chr22_KI270731v1_random": 1,
+      "chr22_KI270734v1_random": 1,
+      "chr22_KI270928v1_alt": 3,
+      "chr2_KI270774v1_alt": 1,
+      "chr2_KI270776v1_alt": 1,
+      "chr3": 552,
+      "chr3_GL000221v1_random": 1,
+      "chr3_JH636055v2_alt": 1,
+      "chr3_KI270779v1_alt": 2,
+      "chr3_KI270895v1_alt": 1,
+      "chr3_KI270924v1_alt": 2,
+      "chr3_KI270934v1_alt": 2,
+      "chr3_KI270935v1_alt": 1,
+      "chr3_KI270936v1_alt": 1,
+      "chr3_KI270937v1_alt": 4,
+      "chr4": 357,
+      "chr4_GL000257v2_alt": 2,
+      "chr5": 417,
+      "chr6": 486,
+      "chr6_GL000250v2_alt": 12,
+      "chr6_GL000251v2_alt": 20,
+      "chr6_GL000252v2_alt": 29,
+      "chr6_GL000253v2_alt": 26,
+      "chr6_GL000254v2_alt": 14,
+      "chr6_GL000255v2_alt": 19,
+      "chr6_GL000256v2_alt": 24,
+      "chr6_KI270758v1_alt": 2,
+      "chr7": 485,
+      "chr7_KI270803v1_alt": 3,
+      "chr8": 317,
+      "chr8_KI270816v1_alt": 2,
+      "chr8_KI270819v1_alt": 1,
+      "chr8_KI270821v1_alt": 1,
+      "chr9": 440,
+      "chr9_GL383541v1_alt": 1,
+      "chr9_KI270823v1_alt": 1,
+      "chrM": 14,
+      "chrUn_GL000214v1": 1,
+      "chrUn_GL000218v1": 2,
+      "chrUn_GL000219v1": 1,
+      "chrUn_KI270743v1": 1,
+      "chrUn_KI270744v1": 5,
+      "chrUn_KI270750v1": 1,
+      "chrX": 197,
+      "chrX_KI270880v1_alt": 2,
+      "chrX_KI270913v1_alt": 3,
+      "chrY": 4
+    },
+    "quality_stats": {
+      "count": 10000,
+      "mean": 22623.852114,
+      "median": 1446.745,
+      "min": 10.04,
+      "max": 1885035.77
+    },
+    "genotype_distribution": {
+      "./.": 169763,
+      "0/0": 756881,
+      "0/1": 89591,
+      "1/1": 54980,
+      "0/2": 4075,
+      "2/2": 1093,
+      "1/3": 192,
+      "0/4": 291,
+      "0/5": 114,
+      "6/6": 28,
+      "1/6": 12,
+      "4/4": 74,
+      "0/3": 869,
+      "3/4": 60,
+      "0/6": 20,
+      "3/5": 24,
+      "5/5": 29,
+      "1/2": 985,
+      "5/6": 10,
+      "4/6": 6,
+      "2/5": 51,
+      "3/3": 153,
+      "2/4": 91,
+      "2/6": 15,
+      "4/5": 25,
+      "2/3": 404,
+      "1/5": 52,
+      "1/4": 101,
+      "3/6": 11
+    },
+    "loading_rate_variants_per_sec": 472.1015840347672,
+    "system_stats_loading": {
+      "cpu_percent": {
+        "avg": 18.665,
+        "max": 26.2,
+        "min": 7.4,
+        "final": 17.7
+      },
+      "memory_percent": {
+        "avg": 27.884999999999998,
+        "max": 27.9,
+        "min": 27.8,
+        "final": 27.9
+      },
+      "memory_used_gb": {
+        "avg": 0.17601699829101564,
+        "max": 0.18502426147460938,
+        "min": 0.10461807250976562,
+        "final": 0.18238449096679688
+      },
+      "disk_read_mb": {
+        "avg": 0.398828125,
+        "max": 1.1484375,
+        "min": 0.0,
+        "final": 1.1484375
+      },
+      "disk_write_mb": {
+        "avg": 30.7958984375,
+        "max": 59.50390625,
+        "min": 2.0625,
+        "final": 59.50390625
+      },
+      "network_sent_mb": {
+        "avg": 350.4741328239441,
+        "max": 473.7884569168091,
+        "min": 0.39956092834472656,
+        "final": 473.7884569168091
+      },
+      "network_recv_mb": {
+        "avg": 399.88937387466433,
+        "max": 735.1161680221558,
+        "min": 74.51216697692871,
+        "final": 735.1161680221558
+      },
+      "duration_seconds": 20.186208248138428
+    },
+    "queries": {
+      "total_variants": {
+        "description": "Count total variants",
+        "avg_time": 0.012072229385375976,
+        "min_time": 0.011665582656860352,
+        "max_time": 0.012364864349365234,
+        "std_time": 0.00027318350990609,
+        "result_count": 1,
+        "sample_results": [
+          10000
+        ],
+        "times": [
+          0.012364864349365234,
+          0.012125015258789062,
+          0.011956453323364258,
+          0.011665582656860352,
+          0.012249231338500977
+        ],
+        "query_type": "count"
+      },
+      "total_genotypes": {
+        "description": "Count total genotypes",
+        "avg_time": 0.015742969512939454,
+        "min_time": 0.014172077178955078,
+        "max_time": 0.019318819046020508,
+        "std_time": 0.002166943270837962,
+        "result_count": 1,
+        "sample_results": [
+          1080000
+        ],
+        "times": [
+          0.019318819046020508,
+          0.016273021697998047,
+          0.014605998992919922,
+          0.014172077178955078,
+          0.014344930648803711
+        ],
+        "query_type": "count"
+      },
+      "range_query": {
+        "description": "Count variants in range chr1:187895-287895",
+        "avg_time": 0.0014149665832519532,
+        "min_time": 0.0009248256683349609,
+        "max_time": 0.0027446746826171875,
+        "std_time": 0.0007825533632121491,
+        "result_count": 1,
+        "sample_results": [
+          2
+        ],
+        "times": [
+          0.0027446746826171875,
+          0.0015056133270263672,
+          0.0009627342224121094,
+          0.0009369850158691406,
+          0.0009248256683349609
+        ],
+        "query_type": "count"
+      },
+      "quality_filter": {
+        "description": "Count high-quality variants (QUAL > 30)",
+        "avg_time": 0.004698276519775391,
+        "min_time": 0.0042645931243896484,
+        "max_time": 0.005324840545654297,
+        "std_time": 0.0004627280827593262,
+        "result_count": 1,
+        "sample_results": [
+          9209
+        ],
+        "times": [
+          0.005324840545654297,
+          0.005022764205932617,
+          0.0042645931243896484,
+          0.004575014114379883,
+          0.004304170608520508
+        ],
+        "query_type": "count"
+      },
+      "quality_stats": {
+        "description": "Quality statistics",
+        "avg_time": 0.010333061218261719,
+        "min_time": 0.009497642517089844,
+        "max_time": 0.011999130249023438,
+        "std_time": 0.0009783817883930804,
+        "result_count": 1,
+        "sample_results": [
+          {
+            "_id": null,
+            "avg_qual": 22623.852113999998,
+            "min_qual": 10.04,
+            "max_qual": 1885035.77,
+            "count": 10000
+          }
+        ],
+        "times": [
+          0.011999130249023438,
+          0.010230302810668945,
+          0.010168790817260742,
+          0.009769439697265625,
+          0.009497642517089844
+        ],
+        "query_type": "stats"
+      },
+      "chromosome_summary": {
+        "description": "Variants per chromosome with average quality",
+        "avg_time": 0.012983751296997071,
+        "min_time": 0.012502670288085938,
+        "max_time": 0.0141143798828125,
+        "std_time": 0.0006710969598691395,
+        "result_count": 120,
+        "sample_results": [
+          {
+            "_id": "chr1",
+            "variant_count": 930,
+            "avg_qual": 21730.121150537634
+          },
+          {
+            "_id": "chr10",
+            "variant_count": 384,
+            "avg_qual": 27173.282552083332
+          },
+          {
+            "_id": "chr10_GL383546v1_alt",
+            "variant_count": 1,
+            "avg_qual": 36.65
+          },
+          {
+            "_id": "chr11",
+            "variant_count": 567,
+            "avg_qual": 25521.35774250441
+          },
+          {
+            "_id": "chr11_KI270831v1_alt",
+            "variant_count": 3,
+            "avg_qual": 53.77333333333333
+          },
+          {
+            "_id": "chr11_KI270832v1_alt",
+            "variant_count": 2,
+            "avg_qual": 213.47500000000002
+          },
+          {
+            "_id": "chr11_KI270902v1_alt",
+            "variant_count": 5,
+            "avg_qual": 128.672
+          },
+          {
+            "_id": "chr11_KI270903v1_alt",
+            "variant_count": 1,
+            "avg_qual": 238.06
+          },
+          {
+            "_id": "chr11_KI270927v1_alt",
+            "variant_count": 2,
+            "avg_qual": 110.29499999999999
+          },
+          {
+            "_id": "chr12",
+            "variant_count": 497,
+            "avg_qual": 21896.6023138833
+          }
+        ],
+        "times": [
+          0.0141143798828125,
+          0.013080358505249023,
+          0.012655496597290039,
+          0.012565851211547852,
+          0.012502670288085938
+        ],
+        "query_type": "summary"
+      },
+      "info_field_query": {
+        "description": "Count variants with depth information",
+        "avg_time": 0.02412714958190918,
+        "min_time": 0.02290511131286621,
+        "max_time": 0.028174877166748047,
+        "std_time": 0.002268837740736638,
+        "result_count": 1,
+        "sample_results": [
+          10000
+        ],
+        "times": [
+          0.023000001907348633,
+          0.02290511131286621,
+          0.023282289505004883,
+          0.023273468017578125,
+          0.028174877166748047
+        ],
+        "query_type": "count"
+      },
+      "genotype_distribution": {
+        "description": "Top genotype distribution",
+        "avg_time": 2.9226202011108398,
+        "min_time": 2.6960535049438477,
+        "max_time": 3.2764999866485596,
+        "std_time": 0.2172642387781988,
+        "result_count": 10,
+        "sample_results": [
+          {
+            "_id": "0/0",
+            "count": 756881
+          },
+          {
+            "_id": "./.",
+            "count": 169763
+          },
+          {
+            "_id": "0/1",
+            "count": 89591
+          },
+          {
+            "_id": "1/1",
+            "count": 54980
+          },
+          {
+            "_id": "0/2",
+            "count": 4075
+          },
+          {
+            "_id": "2/2",
+            "count": 1093
+          },
+          {
+            "_id": "1/2",
+            "count": 985
+          },
+          {
+            "_id": "0/3",
+            "count": 869
+          },
+          {
+            "_id": "2/3",
+            "count": 404
+          },
+          {
+            "_id": "0/4",
+            "count": 291
+          }
+        ],
+        "times": [
+          2.6960535049438477,
+          2.9476613998413086,
+          3.2764999866485596,
+          2.849496841430664,
+          2.8433892726898193
+        ],
+        "query_type": "distribution"
+      },
+      "complex_join": {
+        "description": "Complex aggregation for chromosome chr1",
+        "avg_time": 0.1400236129760742,
+        "min_time": 0.13367414474487305,
+        "max_time": 0.1488792896270752,
+        "std_time": 0.007685506464685953,
+        "result_count": 100,
+        "sample_results": [
+          {
+            "_id": "6848eb0955d72e1d7351cedb",
+            "chrom": "chr1",
+            "pos": 187895,
+            "sample_count": 108,
+            "avg_depth": 12.824074074074074
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cedc",
+            "chrom": "chr1",
+            "pos": 188254,
+            "sample_count": 108,
+            "avg_depth": 64.07407407407408
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cedd",
+            "chrom": "chr1",
+            "pos": 779047,
+            "sample_count": 108,
+            "avg_depth": 0.037037037037037035
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cede",
+            "chrom": "chr1",
+            "pos": 931042,
+            "sample_count": 108,
+            "avg_depth": 46.842592592592595
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cedf",
+            "chrom": "chr1",
+            "pos": 945103,
+            "sample_count": 108,
+            "avg_depth": 48.69444444444444
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee0",
+            "chrom": "chr1",
+            "pos": 965017,
+            "sample_count": 108,
+            "avg_depth": 62.77777777777778
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee1",
+            "chrom": "chr1",
+            "pos": 965125,
+            "sample_count": 108,
+            "avg_depth": 123.75925925925925
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee2",
+            "chrom": "chr1",
+            "pos": 981210,
+            "sample_count": 108,
+            "avg_depth": 47.120370370370374
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee3",
+            "chrom": "chr1",
+            "pos": 1043467,
+            "sample_count": 108,
+            "avg_depth": 99.68518518518519
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee4",
+            "chrom": "chr1",
+            "pos": 1049076,
+            "sample_count": 108,
+            "avg_depth": 42.18518518518518
+          }
+        ],
+        "times": [
+          0.1488792896270752,
+          0.14795970916748047,
+          0.134918212890625,
+          0.13468670845031738,
+          0.13367414474487305
+        ],
+        "query_type": "complex"
+      },
+      "depth_statistics": {
+        "description": "Depth statistics across all genotypes",
+        "avg_time": 2.3227538585662844,
+        "min_time": 2.271284580230713,
+        "max_time": 2.3948814868927,
+        "std_time": 0.04975040599183241,
+        "result_count": 1,
+        "sample_results": [
+          {
+            "_id": null,
+            "avg_depth": 43.46414429004768,
+            "min_depth": 0.0,
+            "max_depth": 1824.0,
+            "count": 1079326
+          }
+        ],
+        "times": [
+          2.3489761352539062,
+          2.271284580230713,
+          2.3107683658599854,
+          2.287858724594116,
+          2.3948814868927
+        ],
+        "query_type": "stats"
+      },
+      "sample_genotypes": {
+        "description": "Genotypes for sample 18869S-ExC136-xgenV2",
+        "avg_time": 0.0019011497497558594,
+        "min_time": 0.0013172626495361328,
+        "max_time": 0.003309965133666992,
+        "std_time": 0.0008180475339354367,
+        "result_count": 100,
+        "sample_results": [
+          {
+            "_id": "6848eb0955d72e1d7351cedb",
+            "chrom": "chr1",
+            "pos": 187895,
+            "samples": {
+              "1": {
+                "GT": "./.",
+                "AD": "0,0",
+                "DP": 0,
+                "PL": "0,0,0"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cedc",
+            "chrom": "chr1",
+            "pos": 188254,
+            "samples": {
+              "1": {
+                "GT": "0/1",
+                "AD": "17,17",
+                "DP": 34,
+                "GQ": 99,
+                "PL": "555,0,342"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cedd",
+            "chrom": "chr1",
+            "pos": 779047,
+            "samples": {
+              "1": {
+                "GT": "./.",
+                "AD": "0,0",
+                "DP": 0,
+                "PL": "0,0,0"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cede",
+            "chrom": "chr1",
+            "pos": 931042,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "34,0",
+                "DP": 34,
+                "GQ": 99,
+                "PL": "0,102,911"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cedf",
+            "chrom": "chr1",
+            "pos": 945103,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "39,0",
+                "DP": 39,
+                "GQ": 99,
+                "PL": "0,102,1530"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee0",
+            "chrom": "chr1",
+            "pos": 965017,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "50,0",
+                "DP": 50,
+                "GQ": 99,
+                "PL": "0,120,1800"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee1",
+            "chrom": "chr1",
+            "pos": 965125,
+            "samples": {
+              "1": {
+                "GT": "0/1",
+                "AD": "127,138",
+                "DP": 265,
+                "GQ": 99,
+                "PL": "3190,0,2889"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee2",
+            "chrom": "chr1",
+            "pos": 981210,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "39,0",
+                "DP": 39,
+                "GQ": 99,
+                "PL": "0,102,1375"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee3",
+            "chrom": "chr1",
+            "pos": 1043467,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "108,0",
+                "DP": 108,
+                "GQ": 99,
+                "PL": "0,120,1800"
+              }
+            }
+          },
+          {
+            "_id": "6848eb0955d72e1d7351cee4",
+            "chrom": "chr1",
+            "pos": 1049076,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "23,0,0",
+                "DP": 23,
+                "GQ": 42,
+                "PL": "0,42,630,42,630,630"
+              }
+            }
+          }
+        ],
+        "times": [
+          0.003309965133666992,
+          0.0019137859344482422,
+          0.0014722347259521484,
+          0.0014925003051757812,
+          0.0013172626495361328
+        ],
+        "query_type": "sample_data"
+      }
+    },
+    "system_stats_queries": {
+      "cpu_percent": {
+        "avg": 16.985454545454544,
+        "max": 25.9,
+        "min": 7.8,
+        "final": 19.2
+      },
+      "memory_percent": {
+        "avg": 27.89090909090909,
+        "max": 27.9,
+        "min": 27.8,
+        "final": 27.9
+      },
+      "memory_used_gb": {
+        "avg": 0.17861154729669745,
+        "max": 0.17861175537109375,
+        "min": 0.17860031127929688,
+        "final": 0.17861175537109375
+      },
+      "disk_read_mb": {
+        "avg": 0.47883522727272726,
+        "max": 1.515625,
+        "min": 0.0,
+        "final": 1.515625
+      },
+      "disk_write_mb": {
+        "avg": 11.314630681818182,
+        "max": 66.0546875,
+        "min": 0.0,
+        "final": 66.0546875
+      },
+      "network_sent_mb": {
+        "avg": 355.73460837277497,
+        "max": 694.9209098815918,
+        "min": 0.0010499954223632812,
+        "final": 694.9209098815918
+      },
+      "network_recv_mb": {
+        "avg": 332.8031792900779,
+        "max": 691.0730991363525,
+        "min": 0.00028896331787109375,
+        "final": 691.0730991363525
+      },
+      "duration_seconds": 27.268277883529663
+    },
+    "database_totals": {
+      "total_variants": 10000,
+      "total_genotypes": 1080000,
+      "total_samples": 108
+    },
+    "database_stats": {
+      "database_size_bytes": 79331737.0,
+      "database_size_mb": 75.65664005279541,
+      "index_size_bytes": 12210176.0,
+      "index_size_mb": 11.64453125,
+      "storage_size_bytes": 19578880.0,
+      "storage_size_mb": 18.671875,
+      "collection_count": 2,
+      "object_count": 10108,
+      "collection_stats": {
+        "variants": {
+          "count": 10000,
+          "size_bytes": 79323606,
+          "size_mb": 75.64888572692871,
+          "storage_size_bytes": 19558400,
+          "storage_size_mb": 18.65234375,
+          "avg_obj_size": 7932,
+          "index_count": 9,
+          "total_index_size_bytes": 12169216,
+          "total_index_size_mb": 11.60546875
+        },
+        "samples": {
+          "count": 108,
+          "size_bytes": 8131,
+          "size_mb": 0.007754325866699219,
+          "storage_size_bytes": 20480,
+          "storage_size_mb": 0.01953125,
+          "avg_obj_size": 75,
+          "index_count": 2,
+          "total_index_size_bytes": 40960,
+          "total_index_size_mb": 0.0390625
+        }
+      },
+      "index_info": {
+        "variants": [
+          {
+            "v": 2,
+            "key": {
+              "_id": 1
+            },
+            "name": "_id_"
+          },
+          {
+            "v": 2,
+            "key": {
+              "chrom": 1,
+              "pos": 1
+            },
+            "name": "chrom_1_pos_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "chrom": 1
+            },
+            "name": "chrom_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "pos": 1
+            },
+            "name": "pos_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "qual": 1
+            },
+            "name": "qual_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "variant_id": 1
+            },
+            "name": "variant_id_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "info.DP": 1
+            },
+            "name": "info.DP_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "samples.*.GT": 1
+            },
+            "name": "samples.*.GT_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "_fts": "text",
+              "_ftsx": 1
+            },
+            "name": "$**_text",
+            "weights": {
+              "$**": 1
+            },
+            "default_language": "english",
+            "language_override": "language",
+            "textIndexVersion": 3
+          }
+        ],
+        "samples": [
+          {
+            "v": 2,
+            "key": {
+              "_id": 1
+            },
+            "name": "_id_"
+          },
+          {
+            "v": 2,
+            "key": {
+              "sample_name": 1
+            },
+            "name": "sample_name_1",
+            "unique": true
+          }
+        ]
+      },
+      "server_info": {
+        "version": "8.0.10",
+        "uptime": 499.0,
+        "connections": {
+          "current": 3,
+          "available": 838857,
+          "totalCreated": 12,
+          "rejected": 0,
+          "active": 2,
+          "threaded": 3,
+          "exhaustIsMaster": 0,
+          "exhaustHello": 1,
+          "awaitingTopologyChanges": 1,
+          "loadBalanced": 0
+        },
+        "memory": {
+          "bits": 64,
+          "resident": 1511,
+          "virtual": 5668,
+          "supported": true,
+          "secureAllocByteCount": 0,
+          "secureAllocBytesInPages": 0
+        },
+        "opcounters": {
+          "insert": 121432,
+          "query": 184,
+          "update": 1,
+          "delete": 2,
+          "getmore": 15,
+          "command": 169
+        }
+      },
+      "storage_efficiency": {
+        "variants_per_mb": 132.17610500574315,
+        "bytes_per_variant": 7933.1737
+      }
+    }
+  },
+  "50k": {
+    "schema_creation_time": 0.06020498275756836,
+    "file_stats": {
+      "file_size_mb": 150.53491115570068,
+      "total_lines": 53417,
+      "header_lines": 3417,
+      "variant_lines": 50000
+    },
+    "load_time": 117.81896829605103,
+    "sample_insert_time": 0.007380962371826172,
+    "variant_count": 50000,
+    "genotype_count": 5400000,
+    "sample_count": 108,
+    "chromosome_distribution": {
+      "chr1": 4703,
+      "chr10": 1921,
+      "chr10_GL383545v1_alt": 2,
+      "chr10_GL383546v1_alt": 3,
+      "chr10_KI270824v1_alt": 1,
+      "chr10_KI270825v1_alt": 2,
+      "chr11": 2788,
+      "chr11_JH159136v1_alt": 3,
+      "chr11_JH159137v1_alt": 1,
+      "chr11_KI270721v1_random": 1,
+      "chr11_KI270829v1_alt": 4,
+      "chr11_KI270830v1_alt": 2,
+      "chr11_KI270831v1_alt": 4,
+      "chr11_KI270832v1_alt": 5,
+      "chr11_KI270902v1_alt": 19,
+      "chr11_KI270903v1_alt": 7,
+      "chr11_KI270927v1_alt": 15,
+      "chr12": 2563,
+      "chr12_GL383553v2_alt": 1,
+      "chr12_GL877876v1_alt": 2,
+      "chr12_KI270834v1_alt": 1,
+      "chr12_KI270904v1_alt": 5,
+      "chr13": 824,
+      "chr14": 1563,
+      "chr14_GL000009v2_random": 1,
+      "chr14_GL000194v1_random": 11,
+      "chr14_GL000225v1_random": 17,
+      "chr14_KI270723v1_random": 1,
+      "chr14_KI270726v1_random": 1,
+      "chr14_KI270847v1_alt": 7,
+      "chr15": 1819,
+      "chr15_KI270727v1_random": 8,
+      "chr15_KI270848v1_alt": 3,
+      "chr15_KI270849v1_alt": 1,
+      "chr15_KI270850v1_alt": 1,
+      "chr15_KI270852v1_alt": 2,
+      "chr15_KI270905v1_alt": 8,
+      "chr15_KI270906v1_alt": 1,
+      "chr16": 2411,
+      "chr16_GL383556v1_alt": 1,
+      "chr16_KI270728v1_random": 15,
+      "chr16_KI270853v1_alt": 6,
+      "chr16_KI270854v1_alt": 1,
+      "chr16_KI270855v1_alt": 1,
+      "chr16_KI270856v1_alt": 1,
+      "chr17": 2970,
+      "chr17_GL000205v2_random": 12,
+      "chr17_GL000258v2_alt": 1,
+      "chr17_GL383563v3_alt": 1,
+      "chr17_GL383564v2_alt": 2,
+      "chr17_JH159146v1_alt": 6,
+      "chr17_JH159147v1_alt": 1,
+      "chr17_JH159148v1_alt": 6,
+      "chr17_KI270857v1_alt": 9,
+      "chr17_KI270860v1_alt": 2,
+      "chr17_KI270861v1_alt": 6,
+      "chr17_KI270862v1_alt": 3,
+      "chr17_KI270907v1_alt": 1,
+      "chr17_KI270908v1_alt": 2,
+      "chr17_KI270909v1_alt": 2,
+      "chr17_KI270910v1_alt": 2,
+      "chr18": 759,
+      "chr18_GL383572v1_alt": 2,
+      "chr18_KI270863v1_alt": 1,
+      "chr18_KI270911v1_alt": 1,
+      "chr19": 3509,
+      "chr19_GL000209v2_alt": 7,
+      "chr19_GL383573v1_alt": 2,
+      "chr19_GL383576v1_alt": 2,
+      "chr19_GL949746v1_alt": 35,
+      "chr19_GL949747v2_alt": 12,
+      "chr19_GL949748v2_alt": 9,
+      "chr19_GL949749v2_alt": 11,
+      "chr19_GL949750v2_alt": 8,
+      "chr19_GL949751v2_alt": 13,
+      "chr19_GL949752v1_alt": 36,
+      "chr19_GL949753v2_alt": 23,
+      "chr19_KI270865v1_alt": 1,
+      "chr19_KI270866v1_alt": 1,
+      "chr19_KI270868v1_alt": 2,
+      "chr19_KI270882v1_alt": 10,
+      "chr19_KI270883v1_alt": 5,
+      "chr19_KI270884v1_alt": 12,
+      "chr19_KI270885v1_alt": 4,
+      "chr19_KI270886v1_alt": 9,
+      "chr19_KI270887v1_alt": 11,
+      "chr19_KI270888v1_alt": 9,
+      "chr19_KI270889v1_alt": 5,
+      "chr19_KI270890v1_alt": 5,
+      "chr19_KI270891v1_alt": 3,
+      "chr19_KI270914v1_alt": 6,
+      "chr19_KI270915v1_alt": 7,
+      "chr19_KI270916v1_alt": 4,
+      "chr19_KI270917v1_alt": 6,
+      "chr19_KI270918v1_alt": 4,
+      "chr19_KI270919v1_alt": 6,
+      "chr19_KI270920v1_alt": 3,
+      "chr19_KI270921v1_alt": 7,
+      "chr19_KI270922v1_alt": 4,
+      "chr19_KI270923v1_alt": 8,
+      "chr19_KI270929v1_alt": 4,
+      "chr19_KI270930v1_alt": 11,
+      "chr19_KI270931v1_alt": 5,
+      "chr19_KI270932v1_alt": 9,
+      "chr19_KI270933v1_alt": 7,
+      "chr19_KI270938v1_alt": 35,
+      "chr1_GL383518v1_alt": 1,
+      "chr1_GL383519v1_alt": 3,
+      "chr1_KI270706v1_random": 4,
+      "chr1_KI270708v1_random": 1,
+      "chr1_KI270711v1_random": 19,
+      "chr1_KI270713v1_random": 7,
+      "chr1_KI270761v1_alt": 1,
+      "chr1_KI270762v1_alt": 2,
+      "chr1_KI270892v1_alt": 1,
+      "chr2": 3201,
+      "chr20": 1159,
+      "chr20_KI270869v1_alt": 2,
+      "chr20_KI270870v1_alt": 1,
+      "chr21": 598,
+      "chr21_GL383580v2_alt": 1,
+      "chr21_KI270872v1_alt": 2,
+      "chr22": 1431,
+      "chr22_GL383582v2_alt": 2,
+      "chr22_KB663609v1_alt": 1,
+      "chr22_KI270731v1_random": 4,
+      "chr22_KI270733v1_random": 2,
+      "chr22_KI270734v1_random": 12,
+      "chr22_KI270875v1_alt": 4,
+      "chr22_KI270879v1_alt": 4,
+      "chr22_KI270928v1_alt": 2,
+      "chr2_KI270769v1_alt": 2,
+      "chr2_KI270773v1_alt": 1,
+      "chr2_KI270776v1_alt": 3,
+      "chr3": 2606,
+      "chr3_GL000221v1_random": 9,
+      "chr3_KI270777v1_alt": 1,
+      "chr3_KI270779v1_alt": 6,
+      "chr3_KI270782v1_alt": 1,
+      "chr3_KI270895v1_alt": 5,
+      "chr3_KI270924v1_alt": 5,
+      "chr3_KI270934v1_alt": 9,
+      "chr3_KI270935v1_alt": 4,
+      "chr3_KI270936v1_alt": 12,
+      "chr3_KI270937v1_alt": 9,
+      "chr4": 1789,
+      "chr5": 2063,
+      "chr5_GL339449v2_alt": 2,
+      "chr5_KI270791v1_alt": 2,
+      "chr5_KI270792v1_alt": 5,
+      "chr5_KI270897v1_alt": 1,
+      "chr5_KI270898v1_alt": 2,
+      "chr6": 2605,
+      "chr6_GL000250v2_alt": 49,
+      "chr6_GL000251v2_alt": 101,
+      "chr6_GL000252v2_alt": 83,
+      "chr6_GL000253v2_alt": 93,
+      "chr6_GL000254v2_alt": 85,
+      "chr6_GL000255v2_alt": 97,
+      "chr6_GL000256v2_alt": 88,
+      "chr6_KI270758v1_alt": 3,
+      "chr6_KI270797v1_alt": 2,
+      "chr6_KI270801v1_alt": 1,
+      "chr7": 2424,
+      "chr7_KI270803v1_alt": 5,
+      "chr7_KI270809v1_alt": 3,
+      "chr8": 1698,
+      "chr8_KI270813v1_alt": 3,
+      "chr8_KI270816v1_alt": 7,
+      "chr8_KI270817v1_alt": 1,
+      "chr8_KI270819v1_alt": 1,
+      "chr8_KI270821v1_alt": 4,
+      "chr8_KI270926v1_alt": 1,
+      "chr9": 2075,
+      "chr9_GL383541v1_alt": 3,
+      "chr9_KI270720v1_random": 1,
+      "chrM": 73,
+      "chrUn_GL000195v1": 3,
+      "chrUn_GL000214v1": 2,
+      "chrUn_GL000216v2": 4,
+      "chrUn_GL000218v1": 8,
+      "chrUn_GL000219v1": 14,
+      "chrUn_GL000220v1": 1,
+      "chrUn_KI270442v1": 2,
+      "chrUn_KI270742v1": 1,
+      "chrUn_KI270743v1": 2,
+      "chrUn_KI270744v1": 9,
+      "chrUn_KI270746v1": 2,
+      "chrUn_KI270749v1": 1,
+      "chrX": 1009,
+      "chrX_KI270880v1_alt": 6,
+      "chrX_KI270913v1_alt": 1,
+      "chrY": 11
+    },
+    "quality_stats": {
+      "count": 50000,
+      "mean": 23427.3298332,
+      "median": 1475.285,
+      "min": 10.02,
+      "max": 2721257.44
+    },
+    "genotype_distribution": {
+      "0/0": 3827514,
+      "./.": 799676,
+      "1/1": 279434,
+      "0/1": 451390,
+      "0/2": 21652,
+      "2/2": 4287,
+      "3/3": 737,
+      "1/2": 4220,
+      "0/3": 4082,
+      "1/5": 145,
+      "1/3": 872,
+      "1/4": 285,
+      "2/4": 449,
+      "0/4": 1286,
+      "2/3": 1254,
+      "3/4": 364,
+      "4/4": 423,
+      "0/5": 524,
+      "5/5": 153,
+      "2/5": 216,
+      "4/5": 163,
+      "3/5": 176,
+      "0/6": 216,
+      "5/6": 76,
+      "3/6": 95,
+      "4/6": 61,
+      "2/6": 78,
+      "6/6": 82,
+      "1/6": 90
+    },
+    "loading_rate_variants_per_sec": 424.37988316415993,
+    "system_stats_loading": {
+      "cpu_percent": {
+        "avg": 17.983168316831684,
+        "max": 32.4,
+        "min": 7.4,
+        "final": 14.7
+      },
+      "memory_percent": {
+        "avg": 27.86138613861386,
+        "max": 27.9,
+        "min": 27.7,
+        "final": 27.8
+      },
+      "memory_used_gb": {
+        "avg": 0.22210270343440594,
+        "max": 0.22356033325195312,
+        "min": 0.1956634521484375,
+        "final": 0.22356033325195312
+      },
+      "disk_read_mb": {
+        "avg": 5.304764851485149,
+        "max": 16.71875,
+        "min": 0.0,
+        "final": 16.71875
+      },
+      "disk_write_mb": {
+        "avg": 234.84092667079207,
+        "max": 647.5625,
+        "min": 1.84375,
+        "final": 647.5625
+      },
+      "network_sent_mb": {
+        "avg": 1394.019646455746,
+        "max": 2840.717748641968,
+        "min": 1.7459115982055664,
+        "final": 2840.717748641968
+      },
+      "network_recv_mb": {
+        "avg": 2182.04978486807,
+        "max": 4177.133136749268,
+        "min": 343.26934337615967,
+        "final": 4177.133136749268
+      },
+      "duration_seconds": 116.82385683059692
+    },
+    "queries": {
+      "total_variants": {
+        "description": "Count total variants",
+        "avg_time": 0.03471555709838867,
+        "min_time": 0.033141136169433594,
+        "max_time": 0.037183523178100586,
+        "std_time": 0.001513232904179679,
+        "result_count": 1,
+        "sample_results": [
+          50000
+        ],
+        "times": [
+          0.037183523178100586,
+          0.03438830375671387,
+          0.034030914306640625,
+          0.03483390808105469,
+          0.033141136169433594
+        ],
+        "query_type": "count"
+      },
+      "total_genotypes": {
+        "description": "Count total genotypes",
+        "avg_time": 0.05486283302307129,
+        "min_time": 0.053030967712402344,
+        "max_time": 0.058939218521118164,
+        "std_time": 0.0023360735916374536,
+        "result_count": 1,
+        "sample_results": [
+          5400000
+        ],
+        "times": [
+          0.058939218521118164,
+          0.054457664489746094,
+          0.053926706314086914,
+          0.05395960807800293,
+          0.053030967712402344
+        ],
+        "query_type": "count"
+      },
+      "range_query": {
+        "description": "Count variants in range chr1:12755-112755",
+        "avg_time": 0.0010356426239013672,
+        "min_time": 0.0007295608520507812,
+        "max_time": 0.0019981861114501953,
+        "std_time": 0.0005400586165652719,
+        "result_count": 1,
+        "sample_results": [
+          7
+        ],
+        "times": [
+          0.0019981861114501953,
+          0.0008578300476074219,
+          0.0007839202880859375,
+          0.0008087158203125,
+          0.0007295608520507812
+        ],
+        "query_type": "count"
+      },
+      "quality_filter": {
+        "description": "Count high-quality variants (QUAL > 30)",
+        "avg_time": 0.021414422988891603,
+        "min_time": 0.021231412887573242,
+        "max_time": 0.021605491638183594,
+        "std_time": 0.00015405471420942873,
+        "result_count": 1,
+        "sample_results": [
+          46523
+        ],
+        "times": [
+          0.021605491638183594,
+          0.02141427993774414,
+          0.021522045135498047,
+          0.021298885345458984,
+          0.021231412887573242
+        ],
+        "query_type": "count"
+      },
+      "quality_stats": {
+        "description": "Quality statistics",
+        "avg_time": 0.051585149765014646,
+        "min_time": 0.05109524726867676,
+        "max_time": 0.05233311653137207,
+        "std_time": 0.00047990679352252237,
+        "result_count": 1,
+        "sample_results": [
+          {
+            "_id": null,
+            "avg_qual": 23427.3298332,
+            "min_qual": 10.02,
+            "max_qual": 2721257.44,
+            "count": 50000
+          }
+        ],
+        "times": [
+          0.0516963005065918,
+          0.05125689506530762,
+          0.05233311653137207,
+          0.05109524726867676,
+          0.051544189453125
+        ],
+        "query_type": "stats"
+      },
+      "chromosome_summary": {
+        "description": "Variants per chromosome with average quality",
+        "avg_time": 0.05631499290466309,
+        "min_time": 0.05600309371948242,
+        "max_time": 0.05676531791687012,
+        "std_time": 0.0003536223931219945,
+        "result_count": 193,
+        "sample_results": [
+          {
+            "_id": "chr1",
+            "variant_count": 4703,
+            "avg_qual": 27234.245879226026
+          },
+          {
+            "_id": "chr10",
+            "variant_count": 1921,
+            "avg_qual": 22625.238308172826
+          },
+          {
+            "_id": "chr10_GL383545v1_alt",
+            "variant_count": 2,
+            "avg_qual": 115.255
+          },
+          {
+            "_id": "chr10_GL383546v1_alt",
+            "variant_count": 3,
+            "avg_qual": 79.37666666666667
+          },
+          {
+            "_id": "chr10_KI270824v1_alt",
+            "variant_count": 1,
+            "avg_qual": 19.49
+          },
+          {
+            "_id": "chr10_KI270825v1_alt",
+            "variant_count": 2,
+            "avg_qual": 186.49
+          },
+          {
+            "_id": "chr11",
+            "variant_count": 2788,
+            "avg_qual": 27888.78087876614
+          },
+          {
+            "_id": "chr11_JH159136v1_alt",
+            "variant_count": 3,
+            "avg_qual": 239.88
+          },
+          {
+            "_id": "chr11_JH159137v1_alt",
+            "variant_count": 1,
+            "avg_qual": 708.81
+          },
+          {
+            "_id": "chr11_KI270721v1_random",
+            "variant_count": 1,
+            "avg_qual": 20.6
+          }
+        ],
+        "times": [
+          0.05676531791687012,
+          0.05600309371948242,
+          0.05662822723388672,
+          0.05608725547790527,
+          0.0560910701751709
+        ],
+        "query_type": "summary"
+      },
+      "info_field_query": {
+        "description": "Count variants with depth information",
+        "avg_time": 0.1471221923828125,
+        "min_time": 0.14409971237182617,
+        "max_time": 0.15289521217346191,
+        "std_time": 0.0037114924889188328,
+        "result_count": 1,
+        "sample_results": [
+          50000
+        ],
+        "times": [
+          0.14875221252441406,
+          0.14449262619018555,
+          0.14409971237182617,
+          0.1453711986541748,
+          0.15289521217346191
+        ],
+        "query_type": "count"
+      },
+      "genotype_distribution": {
+        "description": "Top genotype distribution",
+        "avg_time": 15.97370285987854,
+        "min_time": 15.046391248703003,
+        "max_time": 16.762133598327637,
+        "std_time": 0.6189409004650193,
+        "result_count": 10,
+        "sample_results": [
+          {
+            "_id": "0/0",
+            "count": 3827514
+          },
+          {
+            "_id": "./.",
+            "count": 799676
+          },
+          {
+            "_id": "0/1",
+            "count": 451390
+          },
+          {
+            "_id": "1/1",
+            "count": 279434
+          },
+          {
+            "_id": "0/2",
+            "count": 21652
+          },
+          {
+            "_id": "2/2",
+            "count": 4287
+          },
+          {
+            "_id": "1/2",
+            "count": 4220
+          },
+          {
+            "_id": "0/3",
+            "count": 4082
+          },
+          {
+            "_id": "0/4",
+            "count": 1286
+          },
+          {
+            "_id": "2/3",
+            "count": 1254
+          }
+        ],
+        "times": [
+          15.99364709854126,
+          15.885945558547974,
+          16.762133598327637,
+          16.180396795272827,
+          15.046391248703003
+        ],
+        "query_type": "distribution"
+      },
+      "complex_join": {
+        "description": "Complex aggregation for chromosome chr1",
+        "avg_time": 0.6795451641082764,
+        "min_time": 0.6646683216094971,
+        "max_time": 0.6986663341522217,
+        "std_time": 0.017467093399713498,
+        "result_count": 100,
+        "sample_results": [
+          {
+            "_id": "6848eb4155d72e1d7351f5ec",
+            "chrom": "chr1",
+            "pos": 12755,
+            "sample_count": 108,
+            "avg_depth": 0.8425925925925926
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5ed",
+            "chrom": "chr1",
+            "pos": 15903,
+            "sample_count": 108,
+            "avg_depth": 44.21296296296296
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5ee",
+            "chrom": "chr1",
+            "pos": 16616,
+            "sample_count": 108,
+            "avg_depth": 83.28703703703704
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5ef",
+            "chrom": "chr1",
+            "pos": 16737,
+            "sample_count": 108,
+            "avg_depth": 85.67592592592592
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f0",
+            "chrom": "chr1",
+            "pos": 16775,
+            "sample_count": 108,
+            "avg_depth": 87.87962962962963
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f1",
+            "chrom": "chr1",
+            "pos": 17484,
+            "sample_count": 108,
+            "avg_depth": 99.17592592592592
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f2",
+            "chrom": "chr1",
+            "pos": 17694,
+            "sample_count": 108,
+            "avg_depth": 35.81481481481482
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f3",
+            "chrom": "chr1",
+            "pos": 183189,
+            "sample_count": 108,
+            "avg_depth": 1.3148148148148149
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f4",
+            "chrom": "chr1",
+            "pos": 183238,
+            "sample_count": 108,
+            "avg_depth": 2.7777777777777777
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f5",
+            "chrom": "chr1",
+            "pos": 185275,
+            "sample_count": 108,
+            "avg_depth": 79.57407407407408
+          }
+        ],
+        "times": [
+          0.6986663341522217,
+          0.6985182762145996,
+          0.6665303707122803,
+          0.6693425178527832,
+          0.6646683216094971
+        ],
+        "query_type": "complex"
+      },
+      "depth_statistics": {
+        "description": "Depth statistics across all genotypes",
+        "avg_time": 11.90787148475647,
+        "min_time": 11.61936092376709,
+        "max_time": 12.179280757904053,
+        "std_time": 0.20373309609801707,
+        "result_count": 1,
+        "sample_results": [
+          {
+            "_id": null,
+            "avg_depth": 44.142689008522254,
+            "min_depth": 0.0,
+            "max_depth": 4160.0,
+            "count": 5397045
+          }
+        ],
+        "times": [
+          11.61936092376709,
+          11.896648168563843,
+          11.987609148025513,
+          11.85645842552185,
+          12.179280757904053
+        ],
+        "query_type": "stats"
+      },
+      "sample_genotypes": {
+        "description": "Genotypes for sample 18869S-ExC136-xgenV2",
+        "avg_time": 0.001851367950439453,
+        "min_time": 0.0010952949523925781,
+        "max_time": 0.0043942928314208984,
+        "std_time": 0.0014255345751813383,
+        "result_count": 100,
+        "sample_results": [
+          {
+            "_id": "6848eb4155d72e1d7351f5ec",
+            "chrom": "chr1",
+            "pos": 12755,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "1,0",
+                "DP": 1,
+                "GQ": 3,
+                "PL": "0,3,32"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5ed",
+            "chrom": "chr1",
+            "pos": 15903,
+            "samples": {
+              "1": {
+                "GT": "1/1",
+                "AD": "1,37",
+                "DP": 38,
+                "GQ": 78,
+                "PL": "1277,78,0"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5ee",
+            "chrom": "chr1",
+            "pos": 16616,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "54,0",
+                "DP": 54,
+                "GQ": 99,
+                "PL": "0,112,1800"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5ef",
+            "chrom": "chr1",
+            "pos": 16737,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "80,0",
+                "DP": 80,
+                "GQ": 99,
+                "PL": "0,120,1800"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f0",
+            "chrom": "chr1",
+            "pos": 16775,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "80,0",
+                "DP": 80,
+                "GQ": 99,
+                "PL": "0,120,1800"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f1",
+            "chrom": "chr1",
+            "pos": 17484,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "50,0",
+                "DP": 50,
+                "GQ": 99,
+                "PL": "0,115,1755"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f2",
+            "chrom": "chr1",
+            "pos": 17694,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "23,0",
+                "DP": 23,
+                "GQ": 48,
+                "PL": "0,48,697"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f3",
+            "chrom": "chr1",
+            "pos": 183189,
+            "samples": {
+              "1": {
+                "GT": "./.",
+                "AD": "0,0",
+                "DP": 0,
+                "PL": "0,0,0"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f4",
+            "chrom": "chr1",
+            "pos": 183238,
+            "samples": {
+              "1": {
+                "GT": "./.",
+                "AD": "0,0",
+                "DP": 0,
+                "PL": "0,0,0"
+              }
+            }
+          },
+          {
+            "_id": "6848eb4155d72e1d7351f5f5",
+            "chrom": "chr1",
+            "pos": 185275,
+            "samples": {
+              "1": {
+                "GT": "0/1",
+                "AD": "55,22",
+                "DP": 77,
+                "GQ": 99,
+                "PL": "328,0,1190"
+              }
+            }
+          }
+        ],
+        "times": [
+          0.0043942928314208984,
+          0.001340627670288086,
+          0.0010952949523925781,
+          0.0013010501861572266,
+          0.0011255741119384766
+        ],
+        "query_type": "sample_data"
+      }
+    },
+    "system_stats_queries": {
+      "cpu_percent": {
+        "avg": 18.908710801393728,
+        "max": 43.2,
+        "min": 8.1,
+        "final": 17.1
+      },
+      "memory_percent": {
+        "avg": 27.04459930313589,
+        "max": 27.9,
+        "min": 26.4,
+        "final": 26.5
+      },
+      "memory_used_gb": {
+        "avg": 0.22361690242116045,
+        "max": 0.22368240356445312,
+        "min": 0.22359848022460938,
+        "final": 0.22368240356445312
+      },
+      "disk_read_mb": {
+        "avg": 16.982142857142858,
+        "max": 34.9296875,
+        "min": 0.0,
+        "final": 34.9296875
+      },
+      "disk_write_mb": {
+        "avg": 102.04641223867596,
+        "max": 163.3046875,
+        "min": 0.0,
+        "final": 163.3046875
+      },
+      "network_sent_mb": {
+        "avg": 1727.2889606861288,
+        "max": 3447.169382095337,
+        "min": 0.0010499954223632812,
+        "final": 3447.169382095337
+      },
+      "network_recv_mb": {
+        "avg": 2523.9607938307918,
+        "max": 5277.551519393921,
+        "min": 0.00040149688720703125,
+        "final": 5277.551519393921
+      },
+      "duration_seconds": 144.46703386306763
+    },
+    "database_totals": {
+      "total_variants": 50000,
+      "total_genotypes": 5400000,
+      "total_samples": 108
+    },
+    "database_stats": {
+      "database_size_bytes": 397433341.0,
+      "database_size_mb": 379.02196979522705,
+      "index_size_bytes": 111169536.0,
+      "index_size_mb": 106.01953125,
+      "storage_size_bytes": 96808960.0,
+      "storage_size_mb": 92.32421875,
+      "collection_count": 2,
+      "object_count": 50108,
+      "collection_stats": {
+        "variants": {
+          "count": 50000,
+          "size_bytes": 397425210,
+          "size_mb": 379.01421546936035,
+          "storage_size_bytes": 96788480,
+          "storage_size_mb": 92.3046875,
+          "avg_obj_size": 7948,
+          "index_count": 9,
+          "total_index_size_bytes": 111128576,
+          "total_index_size_mb": 105.98046875
+        },
+        "samples": {
+          "count": 108,
+          "size_bytes": 8131,
+          "size_mb": 0.007754325866699219,
+          "storage_size_bytes": 20480,
+          "storage_size_mb": 0.01953125,
+          "avg_obj_size": 75,
+          "index_count": 2,
+          "total_index_size_bytes": 40960,
+          "total_index_size_mb": 0.0390625
+        }
+      },
+      "index_info": {
+        "variants": [
+          {
+            "v": 2,
+            "key": {
+              "_id": 1
+            },
+            "name": "_id_"
+          },
+          {
+            "v": 2,
+            "key": {
+              "chrom": 1,
+              "pos": 1
+            },
+            "name": "chrom_1_pos_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "chrom": 1
+            },
+            "name": "chrom_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "pos": 1
+            },
+            "name": "pos_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "qual": 1
+            },
+            "name": "qual_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "variant_id": 1
+            },
+            "name": "variant_id_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "info.DP": 1
+            },
+            "name": "info.DP_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "samples.*.GT": 1
+            },
+            "name": "samples.*.GT_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "_fts": "text",
+              "_ftsx": 1
+            },
+            "name": "$**_text",
+            "weights": {
+              "$**": 1
+            },
+            "default_language": "english",
+            "language_override": "language",
+            "textIndexVersion": 3
+          }
+        ],
+        "samples": [
+          {
+            "v": 2,
+            "key": {
+              "_id": 1
+            },
+            "name": "_id_"
+          },
+          {
+            "v": 2,
+            "key": {
+              "sample_name": 1
+            },
+            "name": "sample_name_1",
+            "unique": true
+          }
+        ]
+      },
+      "server_info": {
+        "version": "8.0.10",
+        "uptime": 769.0,
+        "connections": {
+          "current": 4,
+          "available": 838856,
+          "totalCreated": 23,
+          "rejected": 0,
+          "active": 2,
+          "threaded": 4,
+          "exhaustIsMaster": 0,
+          "exhaustHello": 1,
+          "awaitingTopologyChanges": 1,
+          "loadBalanced": 0
+        },
+        "memory": {
+          "bits": 64,
+          "resident": 1322,
+          "virtual": 5670,
+          "supported": true,
+          "secureAllocByteCount": 0,
+          "secureAllocBytesInPages": 0
+        },
+        "opcounters": {
+          "insert": 171540,
+          "query": 246,
+          "update": 2,
+          "delete": 4,
+          "getmore": 20,
+          "command": 258
+        }
+      },
+      "storage_efficiency": {
+        "variants_per_mb": 131.91847434863297,
+        "bytes_per_variant": 7948.66682
+      }
+    }
+  },
+  "100k": {
+    "schema_creation_time": 0.07114362716674805,
+    "file_stats": {
+      "file_size_mb": 299.959077835083,
+      "total_lines": 103417,
+      "header_lines": 3417,
+      "variant_lines": 100000
+    },
+    "load_time": 244.3500270843506,
+    "sample_insert_time": 0.007150173187255859,
+    "variant_count": 100000,
+    "genotype_count": 10800000,
+    "sample_count": 108,
+    "chromosome_distribution": {
+      "chr1": 9188,
+      "chr10": 4070,
+      "chr10_GL383545v1_alt": 2,
+      "chr10_KI270824v1_alt": 1,
+      "chr10_KI270825v1_alt": 1,
+      "chr11": 5681,
+      "chr11_JH159136v1_alt": 2,
+      "chr11_JH159137v1_alt": 1,
+      "chr11_KI270721v1_random": 2,
+      "chr11_KI270829v1_alt": 4,
+      "chr11_KI270830v1_alt": 9,
+      "chr11_KI270831v1_alt": 8,
+      "chr11_KI270832v1_alt": 20,
+      "chr11_KI270902v1_alt": 16,
+      "chr11_KI270903v1_alt": 4,
+      "chr11_KI270927v1_alt": 21,
+      "chr12": 4945,
+      "chr12_GL383553v2_alt": 2,
+      "chr12_GL877875v1_alt": 4,
+      "chr12_GL877876v1_alt": 9,
+      "chr12_KI270837v1_alt": 2,
+      "chr12_KI270904v1_alt": 9,
+      "chr13": 1740,
+      "chr13_KI270839v1_alt": 1,
+      "chr13_KI270840v1_alt": 1,
+      "chr14": 3030,
+      "chr14_GL000009v2_random": 3,
+      "chr14_GL000194v1_random": 17,
+      "chr14_GL000225v1_random": 23,
+      "chr14_KI270723v1_random": 4,
+      "chr14_KI270724v1_random": 1,
+      "chr14_KI270845v1_alt": 3,
+      "chr14_KI270847v1_alt": 12,
+      "chr15": 3624,
+      "chr15_GL383555v2_alt": 3,
+      "chr15_KI270727v1_random": 6,
+      "chr15_KI270848v1_alt": 4,
+      "chr15_KI270849v1_alt": 1,
+      "chr15_KI270850v1_alt": 5,
+      "chr15_KI270851v1_alt": 2,
+      "chr15_KI270852v1_alt": 1,
+      "chr15_KI270905v1_alt": 26,
+      "chr16": 4797,
+      "chr16_GL383556v1_alt": 4,
+      "chr16_KI270728v1_random": 26,
+      "chr16_KI270853v1_alt": 13,
+      "chr16_KI270854v1_alt": 4,
+      "chr16_KI270855v1_alt": 3,
+      "chr17": 5805,
+      "chr17_GL000205v2_random": 16,
+      "chr17_GL000258v2_alt": 6,
+      "chr17_GL383563v3_alt": 5,
+      "chr17_GL383564v2_alt": 6,
+      "chr17_JH159146v1_alt": 13,
+      "chr17_JH159147v1_alt": 4,
+      "chr17_JH159148v1_alt": 6,
+      "chr17_KI270857v1_alt": 20,
+      "chr17_KI270860v1_alt": 4,
+      "chr17_KI270861v1_alt": 8,
+      "chr17_KI270862v1_alt": 5,
+      "chr17_KI270907v1_alt": 1,
+      "chr17_KI270908v1_alt": 4,
+      "chr17_KI270910v1_alt": 3,
+      "chr18": 1562,
+      "chr18_GL383571v1_alt": 1,
+      "chr18_GL383572v1_alt": 2,
+      "chr18_KI270863v1_alt": 2,
+      "chr18_KI270911v1_alt": 4,
+      "chr19": 7149,
+      "chr19_GL000209v2_alt": 9,
+      "chr19_GL383573v1_alt": 2,
+      "chr19_GL383576v1_alt": 1,
+      "chr19_GL949746v1_alt": 71,
+      "chr19_GL949747v2_alt": 22,
+      "chr19_GL949748v2_alt": 20,
+      "chr19_GL949749v2_alt": 12,
+      "chr19_GL949750v2_alt": 14,
+      "chr19_GL949751v2_alt": 17,
+      "chr19_GL949752v1_alt": 57,
+      "chr19_GL949753v2_alt": 47,
+      "chr19_KI270865v1_alt": 3,
+      "chr19_KI270867v1_alt": 1,
+      "chr19_KI270868v1_alt": 3,
+      "chr19_KI270882v1_alt": 13,
+      "chr19_KI270883v1_alt": 10,
+      "chr19_KI270884v1_alt": 15,
+      "chr19_KI270885v1_alt": 18,
+      "chr19_KI270886v1_alt": 18,
+      "chr19_KI270887v1_alt": 14,
+      "chr19_KI270888v1_alt": 13,
+      "chr19_KI270889v1_alt": 14,
+      "chr19_KI270890v1_alt": 14,
+      "chr19_KI270891v1_alt": 14,
+      "chr19_KI270914v1_alt": 16,
+      "chr19_KI270915v1_alt": 14,
+      "chr19_KI270916v1_alt": 9,
+      "chr19_KI270917v1_alt": 11,
+      "chr19_KI270918v1_alt": 11,
+      "chr19_KI270919v1_alt": 10,
+      "chr19_KI270920v1_alt": 12,
+      "chr19_KI270921v1_alt": 15,
+      "chr19_KI270922v1_alt": 14,
+      "chr19_KI270923v1_alt": 22,
+      "chr19_KI270929v1_alt": 14,
+      "chr19_KI270930v1_alt": 19,
+      "chr19_KI270931v1_alt": 10,
+      "chr19_KI270932v1_alt": 16,
+      "chr19_KI270933v1_alt": 12,
+      "chr19_KI270938v1_alt": 87,
+      "chr1_GL383519v1_alt": 2,
+      "chr1_KI270706v1_random": 5,
+      "chr1_KI270708v1_random": 3,
+      "chr1_KI270711v1_random": 30,
+      "chr1_KI270712v1_random": 1,
+      "chr1_KI270713v1_random": 22,
+      "chr1_KI270714v1_random": 4,
+      "chr1_KI270759v1_alt": 2,
+      "chr1_KI270761v1_alt": 4,
+      "chr1_KI270762v1_alt": 5,
+      "chr1_KI270766v1_alt": 3,
+      "chr1_KI270892v1_alt": 2,
+      "chr2": 6520,
+      "chr20": 2363,
+      "chr20_KI270869v1_alt": 1,
+      "chr20_KI270870v1_alt": 2,
+      "chr21": 1326,
+      "chr22": 2769,
+      "chr22_GL383582v2_alt": 7,
+      "chr22_GL383583v2_alt": 1,
+      "chr22_KB663609v1_alt": 1,
+      "chr22_KI270731v1_random": 17,
+      "chr22_KI270733v1_random": 5,
+      "chr22_KI270734v1_random": 14,
+      "chr22_KI270875v1_alt": 5,
+      "chr22_KI270876v1_alt": 1,
+      "chr22_KI270877v1_alt": 4,
+      "chr22_KI270878v1_alt": 2,
+      "chr22_KI270879v1_alt": 9,
+      "chr22_KI270928v1_alt": 6,
+      "chr2_GL383522v1_alt": 3,
+      "chr2_KI270773v1_alt": 1,
+      "chr2_KI270774v1_alt": 5,
+      "chr2_KI270776v1_alt": 3,
+      "chr3": 5023,
+      "chr3_GL000221v1_random": 19,
+      "chr3_KI270777v1_alt": 4,
+      "chr3_KI270779v1_alt": 12,
+      "chr3_KI270784v1_alt": 1,
+      "chr3_KI270895v1_alt": 9,
+      "chr3_KI270924v1_alt": 14,
+      "chr3_KI270934v1_alt": 8,
+      "chr3_KI270935v1_alt": 8,
+      "chr3_KI270936v1_alt": 9,
+      "chr3_KI270937v1_alt": 12,
+      "chr4": 3663,
+      "chr4_GL000257v2_alt": 4,
+      "chr4_KI270896v1_alt": 1,
+      "chr5": 4057,
+      "chr5_GL339449v2_alt": 2,
+      "chr5_KI270791v1_alt": 5,
+      "chr5_KI270792v1_alt": 5,
+      "chr5_KI270794v1_alt": 1,
+      "chr5_KI270897v1_alt": 4,
+      "chr5_KI270898v1_alt": 1,
+      "chr6": 5050,
+      "chr6_GL000250v2_alt": 91,
+      "chr6_GL000251v2_alt": 188,
+      "chr6_GL000252v2_alt": 184,
+      "chr6_GL000253v2_alt": 168,
+      "chr6_GL000254v2_alt": 186,
+      "chr6_GL000255v2_alt": 198,
+      "chr6_GL000256v2_alt": 178,
+      "chr6_KI270758v1_alt": 4,
+      "chr6_KI270797v1_alt": 2,
+      "chr6_KI270798v1_alt": 2,
+      "chr6_KI270801v1_alt": 2,
+      "chr7": 4912,
+      "chr7_GL383534v2_alt": 1,
+      "chr7_KI270803v1_alt": 9,
+      "chr7_KI270806v1_alt": 2,
+      "chr7_KI270808v1_alt": 1,
+      "chr7_KI270809v1_alt": 3,
+      "chr7_KI270899v1_alt": 2,
+      "chr8": 3498,
+      "chr8_KI270812v1_alt": 1,
+      "chr8_KI270813v1_alt": 8,
+      "chr8_KI270816v1_alt": 21,
+      "chr8_KI270819v1_alt": 3,
+      "chr8_KI270821v1_alt": 4,
+      "chr8_KI270822v1_alt": 1,
+      "chr8_KI270900v1_alt": 2,
+      "chr9": 4153,
+      "chr9_GL383540v1_alt": 1,
+      "chr9_GL383541v1_alt": 1,
+      "chr9_KI270719v1_random": 1,
+      "chr9_KI270720v1_random": 6,
+      "chrM": 127,
+      "chrUn_GL000195v1": 14,
+      "chrUn_GL000213v1": 3,
+      "chrUn_GL000214v1": 7,
+      "chrUn_GL000216v2": 10,
+      "chrUn_GL000218v1": 21,
+      "chrUn_GL000219v1": 21,
+      "chrUn_GL000220v1": 1,
+      "chrUn_KI270442v1": 4,
+      "chrUn_KI270742v1": 2,
+      "chrUn_KI270743v1": 8,
+      "chrUn_KI270744v1": 21,
+      "chrUn_KI270746v1": 7,
+      "chrUn_KI270749v1": 1,
+      "chrUn_KI270750v1": 1,
+      "chrUn_KI270753v1": 2,
+      "chrX": 2105,
+      "chrX_KI270880v1_alt": 8,
+      "chrX_KI270913v1_alt": 10,
+      "chrY": 39
+    },
+    "quality_stats": {
+      "count": 100000,
+      "mean": 22886.817895,
+      "median": 1424.4650000000001,
+      "min": 10.04,
+      "max": 2761313.37
+    },
+    "genotype_distribution": {
+      "0/0": 7647762,
+      "./.": 1633609,
+      "1/1": 550031,
+      "0/1": 887658,
+      "0/2": 41267,
+      "1/2": 8958,
+      "2/2": 8973,
+      "3/3": 1604,
+      "0/3": 7165,
+      "1/5": 285,
+      "1/3": 1770,
+      "1/4": 500,
+      "2/3": 2633,
+      "0/4": 1986,
+      "0/5": 844,
+      "3/5": 301,
+      "2/5": 415,
+      "4/4": 762,
+      "2/4": 851,
+      "3/4": 661,
+      "4/5": 329,
+      "2/6": 194,
+      "4/6": 144,
+      "5/5": 344,
+      "0/6": 357,
+      "5/6": 127,
+      "6/6": 188,
+      "3/6": 159,
+      "1/6": 123
+    },
+    "loading_rate_variants_per_sec": 409.248982671402,
+    "system_stats_loading": {
+      "cpu_percent": {
+        "avg": 18.616190476190475,
+        "max": 30.2,
+        "min": 9.8,
+        "final": 23.2
+      },
+      "memory_percent": {
+        "avg": 26.562857142857144,
+        "max": 26.7,
+        "min": 26.5,
+        "final": 26.7
+      },
+      "memory_used_gb": {
+        "avg": 0.25390886579241073,
+        "max": 0.2562408447265625,
+        "min": 0.2220611572265625,
+        "final": 0.2562408447265625
+      },
+      "disk_read_mb": {
+        "avg": 17.907254464285714,
+        "max": 41.0546875,
+        "min": 0.109375,
+        "final": 41.0546875
+      },
+      "disk_write_mb": {
+        "avg": 594.739880952381,
+        "max": 1341.2109375,
+        "min": 2.9609375,
+        "final": 1341.2109375
+      },
+      "network_sent_mb": {
+        "avg": 4367.37819157555,
+        "max": 8506.075885772705,
+        "min": 332.0296821594238,
+        "final": 8506.075885772705
+      },
+      "network_recv_mb": {
+        "avg": 4564.848282677786,
+        "max": 8467.944702148438,
+        "min": 726.7880954742432,
+        "final": 8467.944702148438
+      },
+      "duration_seconds": 243.3554413318634
+    },
+    "queries": {
+      "total_variants": {
+        "description": "Count total variants",
+        "avg_time": 0.06086573600769043,
+        "min_time": 0.059653520584106445,
+        "max_time": 0.06237483024597168,
+        "std_time": 0.0010154303207745043,
+        "result_count": 1,
+        "sample_results": [
+          100000
+        ],
+        "times": [
+          0.06050705909729004,
+          0.061248064041137695,
+          0.06237483024597168,
+          0.06054520606994629,
+          0.059653520584106445
+        ],
+        "query_type": "count"
+      },
+      "total_genotypes": {
+        "description": "Count total genotypes",
+        "avg_time": 0.12151808738708496,
+        "min_time": 0.11472105979919434,
+        "max_time": 0.1371326446533203,
+        "std_time": 0.008892351131635392,
+        "result_count": 1,
+        "sample_results": [
+          10800000
+        ],
+        "times": [
+          0.1183938980102539,
+          0.11906766891479492,
+          0.11827516555786133,
+          0.11472105979919434,
+          0.1371326446533203
+        ],
+        "query_type": "count"
+      },
+      "range_query": {
+        "description": "Count variants in range chr1:13868-113868",
+        "avg_time": 0.0021831512451171873,
+        "min_time": 0.0013680458068847656,
+        "max_time": 0.0036127567291259766,
+        "std_time": 0.0009158684453971462,
+        "result_count": 1,
+        "sample_results": [
+          25
+        ],
+        "times": [
+          0.0036127567291259766,
+          0.0019414424896240234,
+          0.002506256103515625,
+          0.0013680458068847656,
+          0.0014872550964355469
+        ],
+        "query_type": "count"
+      },
+      "quality_filter": {
+        "description": "Count high-quality variants (QUAL > 30)",
+        "avg_time": 0.04343857765197754,
+        "min_time": 0.04166293144226074,
+        "max_time": 0.04774618148803711,
+        "std_time": 0.0024909906146264632,
+        "result_count": 1,
+        "sample_results": [
+          92653
+        ],
+        "times": [
+          0.04774618148803711,
+          0.04338979721069336,
+          0.04208230972290039,
+          0.042311668395996094,
+          0.04166293144226074
+        ],
+        "query_type": "count"
+      },
+      "quality_stats": {
+        "description": "Quality statistics",
+        "avg_time": 0.11564702987670898,
+        "min_time": 0.11124444007873535,
+        "max_time": 0.12224459648132324,
+        "std_time": 0.004767688497849796,
+        "result_count": 1,
+        "sample_results": [
+          {
+            "_id": null,
+            "avg_qual": 22886.817895,
+            "min_qual": 10.04,
+            "max_qual": 2761313.37,
+            "count": 100000
+          }
+        ],
+        "times": [
+          0.11252880096435547,
+          0.11124444007873535,
+          0.11909723281860352,
+          0.12224459648132324,
+          0.11312007904052734
+        ],
+        "query_type": "stats"
+      },
+      "chromosome_summary": {
+        "description": "Variants per chromosome with average quality",
+        "avg_time": 0.12542238235473632,
+        "min_time": 0.12114357948303223,
+        "max_time": 0.13121914863586426,
+        "std_time": 0.003922802989221795,
+        "result_count": 216,
+        "sample_results": [
+          {
+            "_id": "chr1",
+            "variant_count": 9188,
+            "avg_qual": 24301.14786787114
+          },
+          {
+            "_id": "chr10",
+            "variant_count": 4070,
+            "avg_qual": 21441.27788206388
+          },
+          {
+            "_id": "chr10_GL383545v1_alt",
+            "variant_count": 2,
+            "avg_qual": 207.3
+          },
+          {
+            "_id": "chr10_KI270824v1_alt",
+            "variant_count": 1,
+            "avg_qual": 20.49
+          },
+          {
+            "_id": "chr10_KI270825v1_alt",
+            "variant_count": 1,
+            "avg_qual": 140.91
+          },
+          {
+            "_id": "chr11",
+            "variant_count": 5681,
+            "avg_qual": 28779.5072416828
+          },
+          {
+            "_id": "chr11_JH159136v1_alt",
+            "variant_count": 2,
+            "avg_qual": 113.485
+          },
+          {
+            "_id": "chr11_JH159137v1_alt",
+            "variant_count": 1,
+            "avg_qual": 59.35
+          },
+          {
+            "_id": "chr11_KI270721v1_random",
+            "variant_count": 2,
+            "avg_qual": 371.61
+          },
+          {
+            "_id": "chr11_KI270829v1_alt",
+            "variant_count": 4,
+            "avg_qual": 62.965
+          }
+        ],
+        "times": [
+          0.13121914863586426,
+          0.12277483940124512,
+          0.12498831748962402,
+          0.12114357948303223,
+          0.12698602676391602
+        ],
+        "query_type": "summary"
+      },
+      "info_field_query": {
+        "description": "Count variants with depth information",
+        "avg_time": 0.4271404266357422,
+        "min_time": 0.3834719657897949,
+        "max_time": 0.4546091556549072,
+        "std_time": 0.02677664289672774,
+        "result_count": 1,
+        "sample_results": [
+          100000
+        ],
+        "times": [
+          0.3834719657897949,
+          0.43047428131103516,
+          0.44107699394226074,
+          0.4546091556549072,
+          0.4260697364807129
+        ],
+        "query_type": "count"
+      },
+      "genotype_distribution": {
+        "description": "Top genotype distribution",
+        "avg_time": 30.7661762714386,
+        "min_time": 29.14625644683838,
+        "max_time": 31.95317578315735,
+        "std_time": 1.1623260588019206,
+        "result_count": 10,
+        "sample_results": [
+          {
+            "_id": "0/0",
+            "count": 7647762
+          },
+          {
+            "_id": "./.",
+            "count": 1633609
+          },
+          {
+            "_id": "0/1",
+            "count": 887658
+          },
+          {
+            "_id": "1/1",
+            "count": 550031
+          },
+          {
+            "_id": "0/2",
+            "count": 41267
+          },
+          {
+            "_id": "2/2",
+            "count": 8973
+          },
+          {
+            "_id": "1/2",
+            "count": 8958
+          },
+          {
+            "_id": "0/3",
+            "count": 7165
+          },
+          {
+            "_id": "2/3",
+            "count": 2633
+          },
+          {
+            "_id": "0/4",
+            "count": 1986
+          }
+        ],
+        "times": [
+          31.95317578315735,
+          31.326354503631592,
+          29.14625644683838,
+          29.978322744369507,
+          31.426771879196167
+        ],
+        "query_type": "distribution"
+      },
+      "complex_join": {
+        "description": "Complex aggregation for chromosome chr1",
+        "avg_time": 1.4326238632202148,
+        "min_time": 1.3796963691711426,
+        "max_time": 1.5232174396514893,
+        "std_time": 0.05596226827521501,
+        "result_count": 100,
+        "sample_results": [
+          {
+            "_id": "6848ec5555d72e1d7352b93d",
+            "chrom": "chr1",
+            "pos": 13868,
+            "sample_count": 108,
+            "avg_depth": 0.3611111111111111
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b93e",
+            "chrom": "chr1",
+            "pos": 14248,
+            "sample_count": 108,
+            "avg_depth": 1.3888888888888888
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b93f",
+            "chrom": "chr1",
+            "pos": 14378,
+            "sample_count": 108,
+            "avg_depth": 6.685185185185185
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b940",
+            "chrom": "chr1",
+            "pos": 14464,
+            "sample_count": 108,
+            "avg_depth": 10.731481481481481
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b941",
+            "chrom": "chr1",
+            "pos": 14573,
+            "sample_count": 108,
+            "avg_depth": 39.074074074074076
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b942",
+            "chrom": "chr1",
+            "pos": 14610,
+            "sample_count": 108,
+            "avg_depth": 77.25
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b943",
+            "chrom": "chr1",
+            "pos": 14773,
+            "sample_count": 108,
+            "avg_depth": 63.7037037037037
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b944",
+            "chrom": "chr1",
+            "pos": 14937,
+            "sample_count": 108,
+            "avg_depth": 22.324074074074073
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b945",
+            "chrom": "chr1",
+            "pos": 16631,
+            "sample_count": 108,
+            "avg_depth": 83.25
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b946",
+            "chrom": "chr1",
+            "pos": 16647,
+            "sample_count": 108,
+            "avg_depth": 77.5925925925926
+          }
+        ],
+        "times": [
+          1.5232174396514893,
+          1.4373908042907715,
+          1.428663969039917,
+          1.394150733947754,
+          1.3796963691711426
+        ],
+        "query_type": "complex"
+      },
+      "depth_statistics": {
+        "description": "Depth statistics across all genotypes",
+        "avg_time": 23.676949882507323,
+        "min_time": 22.934211254119873,
+        "max_time": 24.940707683563232,
+        "std_time": 0.8226911448766269,
+        "result_count": 1,
+        "sample_results": [
+          {
+            "_id": null,
+            "avg_depth": 43.5620638958575,
+            "min_depth": 0.0,
+            "max_depth": 2475.0,
+            "count": 10794440
+          }
+        ],
+        "times": [
+          24.940707683563232,
+          24.04313564300537,
+          23.357605457305908,
+          23.109089374542236,
+          22.934211254119873
+        ],
+        "query_type": "stats"
+      },
+      "sample_genotypes": {
+        "description": "Genotypes for sample 18869S-ExC136-xgenV2",
+        "avg_time": 0.002368450164794922,
+        "min_time": 0.0013308525085449219,
+        "max_time": 0.004342317581176758,
+        "std_time": 0.0014076100757638866,
+        "result_count": 100,
+        "sample_results": [
+          {
+            "_id": "6848ec5555d72e1d7352b93d",
+            "chrom": "chr1",
+            "pos": 13868,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "1,0",
+                "DP": 1,
+                "GQ": 3,
+                "PL": "0,3,25"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b93e",
+            "chrom": "chr1",
+            "pos": 14248,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "2,0",
+                "DP": 2,
+                "GQ": 6,
+                "PL": "0,6,57"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b93f",
+            "chrom": "chr1",
+            "pos": 14378,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "5,0",
+                "DP": 5,
+                "GQ": 15,
+                "PL": "0,15,130"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b940",
+            "chrom": "chr1",
+            "pos": 14464,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "9,0",
+                "DP": 9,
+                "GQ": 27,
+                "PL": "0,27,295"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b941",
+            "chrom": "chr1",
+            "pos": 14573,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "37,0",
+                "DP": 37,
+                "GQ": 99,
+                "PL": "0,108,1620"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b942",
+            "chrom": "chr1",
+            "pos": 14610,
+            "samples": {
+              "1": {
+                "GT": "0/1",
+                "AD": "30,41",
+                "DP": 71,
+                "GQ": 99,
+                "PL": "1464,0,696"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b943",
+            "chrom": "chr1",
+            "pos": 14773,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "38,0",
+                "DP": 38,
+                "GQ": 99,
+                "PL": "0,99,1485"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b944",
+            "chrom": "chr1",
+            "pos": 14937,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "12,0,0",
+                "DP": 12,
+                "GQ": 36,
+                "PL": "0,36,381,36,381,381"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b945",
+            "chrom": "chr1",
+            "pos": 16631,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "54,0",
+                "DP": 54,
+                "GQ": 99,
+                "PL": "0,112,1800"
+              }
+            }
+          },
+          {
+            "_id": "6848ec5555d72e1d7352b946",
+            "chrom": "chr1",
+            "pos": 16647,
+            "samples": {
+              "1": {
+                "GT": "0/0",
+                "AD": "54,0",
+                "DP": 54,
+                "GQ": 99,
+                "PL": "0,112,1800"
+              }
+            }
+          }
+        ],
+        "times": [
+          0.004342317581176758,
+          0.0033867359161376953,
+          0.0014443397521972656,
+          0.0013380050659179688,
+          0.0013308525085449219
+        ],
+        "query_type": "sample_data"
+      }
+    },
+    "system_stats_queries": {
+      "cpu_percent": {
+        "avg": 18.365896980461812,
+        "max": 40.2,
+        "min": 6.5,
+        "final": 19.5
+      },
+      "memory_percent": {
+        "avg": 26.482593250444047,
+        "max": 26.7,
+        "min": 26.4,
+        "final": 26.4
+      },
+      "memory_used_gb": {
+        "avg": 0.2570096519023021,
+        "max": 0.2570304870605469,
+        "min": 0.256988525390625,
+        "final": 0.2570075988769531
+      },
+      "disk_read_mb": {
+        "avg": 20.898277919627,
+        "max": 48.94921875,
+        "min": 0.0,
+        "final": 48.94921875
+      },
+      "disk_write_mb": {
+        "avg": 249.37530528419182,
+        "max": 306.0234375,
+        "min": 0.0,
+        "final": 306.0234375
+      },
+      "network_sent_mb": {
+        "avg": 3399.018037933228,
+        "max": 6605.125339508057,
+        "min": 0.0010499954223632812,
+        "final": 6605.125339508057
+      },
+      "network_recv_mb": {
+        "avg": 4191.6700580844235,
+        "max": 7989.019826889038,
+        "min": 0.00028896331787109375,
+        "final": 7989.019826889038
+      },
+      "duration_seconds": 283.7930407524109
+    },
+    "database_totals": {
+      "total_variants": 100000,
+      "total_genotypes": 10800000,
+      "total_samples": 108
+    },
+    "database_stats": {
+      "database_size_bytes": 793599881.0,
+      "database_size_mb": 756.8358240127563,
+      "index_size_bytes": 202825728.0,
+      "index_size_mb": 193.4296875,
+      "storage_size_bytes": 191033344.0,
+      "storage_size_mb": 182.18359375,
+      "collection_count": 2,
+      "object_count": 100108,
+      "collection_stats": {
+        "variants": {
+          "count": 100000,
+          "size_bytes": 793591750,
+          "size_mb": 756.8280696868896,
+          "storage_size_bytes": 191012864,
+          "storage_size_mb": 182.1640625,
+          "avg_obj_size": 7935,
+          "index_count": 9,
+          "total_index_size_bytes": 202784768,
+          "total_index_size_mb": 193.390625
+        },
+        "samples": {
+          "count": 108,
+          "size_bytes": 8131,
+          "size_mb": 0.007754325866699219,
+          "storage_size_bytes": 20480,
+          "storage_size_mb": 0.01953125,
+          "avg_obj_size": 75,
+          "index_count": 2,
+          "total_index_size_bytes": 40960,
+          "total_index_size_mb": 0.0390625
+        }
+      },
+      "index_info": {
+        "variants": [
+          {
+            "v": 2,
+            "key": {
+              "_id": 1
+            },
+            "name": "_id_"
+          },
+          {
+            "v": 2,
+            "key": {
+              "chrom": 1,
+              "pos": 1
+            },
+            "name": "chrom_1_pos_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "chrom": 1
+            },
+            "name": "chrom_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "pos": 1
+            },
+            "name": "pos_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "qual": 1
+            },
+            "name": "qual_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "variant_id": 1
+            },
+            "name": "variant_id_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "info.DP": 1
+            },
+            "name": "info.DP_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "samples.*.GT": 1
+            },
+            "name": "samples.*.GT_1"
+          },
+          {
+            "v": 2,
+            "key": {
+              "_fts": "text",
+              "_ftsx": 1
+            },
+            "name": "$**_text",
+            "weights": {
+              "$**": 1
+            },
+            "default_language": "english",
+            "language_override": "language",
+            "textIndexVersion": 3
+          }
+        ],
+        "samples": [
+          {
+            "v": 2,
+            "key": {
+              "_id": 1
+            },
+            "name": "_id_"
+          },
+          {
+            "v": 2,
+            "key": {
+              "sample_name": 1
+            },
+            "name": "sample_name_1",
+            "unique": true
+          }
+        ]
+      },
+      "server_info": {
+        "version": "8.0.10",
+        "uptime": 1310.0,
+        "connections": {
+          "current": 3,
+          "available": 838857,
+          "totalCreated": 27,
+          "rejected": 0,
+          "active": 2,
+          "threaded": 3,
+          "exhaustIsMaster": 0,
+          "exhaustHello": 1,
+          "awaitingTopologyChanges": 1,
+          "loadBalanced": 0
+        },
+        "memory": {
+          "bits": 64,
+          "resident": 2381,
+          "virtual": 6694,
+          "supported": true,
+          "secureAllocByteCount": 0,
+          "secureAllocBytesInPages": 0
+        },
+        "opcounters": {
+          "insert": 271648,
+          "query": 309,
+          "update": 4,
+          "delete": 5,
+          "getmore": 25,
+          "command": 392
+        }
+      },
+      "storage_efficiency": {
+        "variants_per_mb": 132.12905207076258,
+        "bytes_per_variant": 7935.99881
+      }
+    }
+  }
+}
